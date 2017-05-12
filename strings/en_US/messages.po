@@ -3337,3 +3337,6 @@ msgstr "{{ numAttendees }} Attendees"
 msgid "{{ numMentors }} Mentors"
 msgstr "{{ numMentors }} Mentors"
 
+msgid "Help Center"
+msgstr "Help Center"
+
