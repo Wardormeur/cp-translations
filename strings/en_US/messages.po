@@ -3340,3 +3340,20 @@ msgstr "{{ numMentors }} Mentors"
 msgid "Help Center"
 msgstr "Help Center"
 
+msgid "All your events will be visible on your dojo page"
+msgstr "All your events will be visible on your dojo page"
+
+msgid "Connect"
+msgstr "Connect"
+
+msgid "Reconnect"
+msgstr "Reconnect"
+
+msgid "Disconnect"
+msgstr "Disconnect"
+
+msgid "Your integration with eventbrite has been removed"
+msgstr "Your integration with eventbrite has been removed"
+
+msgid "Your eventbrite account has been successfully attached"
+msgstr "Your eventbrite account has been successfully attached"
