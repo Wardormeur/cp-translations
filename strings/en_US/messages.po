@@ -2611,8 +2611,8 @@ msgstr "Avatar upload: file must be an image."
 msgid "Avatar upload: max file size of 5MB exceeded."
 msgstr "Avatar upload: max file size of 5MB exceeded."
 
-msgid "has been cancelled"
-msgstr "has been cancelled"
+msgid "%1$s has been cancelled"
+msgstr "%1$s has been cancelled"
 
 msgid "Your ticket request for"
 msgstr "Your ticket request for"
@@ -3339,4 +3339,3 @@ msgstr "{{ numMentors }} Mentors"
 
 msgid "Help Center"
 msgstr "Help Center"
-
