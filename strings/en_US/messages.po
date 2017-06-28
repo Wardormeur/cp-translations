@@ -3520,8 +3520,8 @@ msgstr "Proceed"
 msgid "Showing {numPerPage} of {total} Dojos"
 msgstr "Showing {numPerPage} of {total} Dojos"
 
-msgid "I accept the T&Cs ({openLinkTag}Terms & Conditions{closingLinkTag})"
-msgstr "I accept the T&Cs ({openLinkTag}Terms & Conditions{closingLinkTag})"
+msgid "I agree with {openLinkTag}Terms & Conditions{closingLinkTag}"
+msgstr "I agree with {openLinkTag}Terms & Conditions{closingLinkTag}"
 
 msgid "I consent to the use of my data ({openLinkTag}Data policy{closingLinkTag})"
 msgstr "I consent to the use of my data ({openLinkTag}Data policy{closingLinkTag})"
