@@ -3525,3 +3525,6 @@ msgstr "I agree with {openLinkTag}Terms & Conditions{closingLinkTag}"
 
 msgid "I consent to the use of my data ({openLinkTag}Data policy{closingLinkTag})"
 msgstr "I consent to the use of my data ({openLinkTag}Data policy{closingLinkTag})"
+
+msgid "Unfortunately there are no dojos in your area at the moment. Please search again or use the map to find the closest one."
+msgstr "Unfortunately there are no dojos in your area at the moment. Please search again or use the map to find the closest one."
