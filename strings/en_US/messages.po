@@ -3442,11 +3442,11 @@ msgstr "Learn technology in an informal, creative and social environment. Find a
 msgid "Enter your city or locality"
 msgstr "Enter your city or locality"
 
-msgid "Search Dojos"
-msgstr "Search Dojos"
+msgid "Search for Dojos"
+msgstr "Search for Dojos"
 
-msgid "Detect My Location"
-msgstr "Detect My Location"
+msgid "Detect my location"
+msgstr "Detect my location"
 
 msgid "Account created"
 msgstr "Account created"
@@ -3496,8 +3496,8 @@ msgstr "Location"
 msgid "You will need your parent to carry out the registration."
 msgstr "You will need your parent to carry out the registration."
 
-msgid "To continue, we need to verify your age."
-msgstr "To continue, we need to verify your age."
+msgid "Please verify your age"
+msgstr "Please verify your age"
 
 msgid "Enter your Date of Birth"
 msgstr "Enter your Date of Birth"
@@ -3517,8 +3517,8 @@ msgstr "Select Event Tickets"
 msgid "Proceed"
 msgstr "Proceed"
 
-msgid "Showing {numPerPage} of {total} Dojos"
-msgstr "Showing {numPerPage} of {total} Dojos"
+msgid "Showing {total} Dojos"
+msgstr "Showing {total} Dojos"
 
 msgid "I agree with {openLinkTag}Terms & Conditions{closingLinkTag}"
 msgstr "I agree with {openLinkTag}Terms & Conditions{closingLinkTag}"
