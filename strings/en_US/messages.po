@@ -3534,3 +3534,12 @@ msgstr "No Upcoming Events"
 
 msgid "There are no upcoming events planned for this Dojo. Please email {email} if you have any questions."
 msgstr "There are no upcoming events planned for this Dojo. Please email {email} if you have any questions."
+
+msgid "Show Map"
+msgstr "Show Map"
+
+msgid "Hide Map"
+msgstr "Hide Map"
+
+msgid "Try modifying your search location, or zoom out on the {openLink}map{closeLink} to find the nearest Dojos."
+msgstr "Try modifying your search location, or zoom out on the {openLink}map{closeLink} to find the nearest Dojos."
