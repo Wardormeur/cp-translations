@@ -3543,3 +3543,6 @@ msgstr "Hide Map"
 
 msgid "Try modifying your search location, or zoom out on the {openLink}map{closeLink} to find the nearest Dojos."
 msgstr "Try modifying your search location, or zoom out on the {openLink}map{closeLink} to find the nearest Dojos."
+
+msgid "Contact Dojo"
+msgstr "Contact Dojo"
