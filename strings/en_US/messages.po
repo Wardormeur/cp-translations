@@ -3448,11 +3448,11 @@ msgstr "Search for Dojos"
 msgid "Detect my location"
 msgstr "Detect my location"
 
-msgid "Account created"
-msgstr "Account created"
+msgid "CoderDojo Account has been created"
+msgstr "CoderDojo Account has been created"
 
-msgid "Your booking is completed successfully"
-msgstr "Your booking is completed successfully"
+msgid "Booking Complete"
+msgstr "Booking Complete"
 
 msgid "You must accept the terms and conditions before proceeding."
 msgstr "You must accept the terms and conditions before proceeding."
@@ -3549,3 +3549,30 @@ msgstr "Contact Dojo"
 
 msgid "Full"
 msgstr "Full"
+
+msgid "A confirmation email has been sent to {email}"
+msgstr "A confirmation email has been sent to {email}"
+
+msgid "Event hosted by {dojoName}"
+msgstr "Event hosted by {dojoName}"
+
+msgid "TIME"
+msgstr "TIME"
+
+msgid "LOCATION"
+msgstr "LOCATION"
+
+msgid "ATTENDEES"
+msgstr "ATTENDEES"
+
+msgid "You are now subscribed to {dojoName} dojo"
+msgstr "You are now subscribed to {dojoName} dojo"
+
+msgid "You can log in and find events hosted by this dojo in My Dojos"
+msgstr "You can log in and find events hosted by this dojo in My Dojos"
+
+msgid "You will be notified about future events hosted by this dojo"
+msgstr "You will be notified about future events hosted by this dojo"
+
+msgid "Event Details"
+msgstr "Event Details"
