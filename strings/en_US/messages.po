@@ -3546,3 +3546,6 @@ msgstr "Try modifying your search location, or zoom out on the {openLink}map{clo
 
 msgid "Contact Dojo"
 msgstr "Contact Dojo"
+
+msgid "Full"
+msgstr "Full"
