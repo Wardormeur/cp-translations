@@ -3556,20 +3556,14 @@ msgstr "A confirmation email has been sent to {email}"
 msgid "Event hosted by {dojoName}"
 msgstr "Event hosted by {dojoName}"
 
-msgid "TIME"
-msgstr "TIME"
-
-msgid "LOCATION"
-msgstr "LOCATION"
-
-msgid "ATTENDEES"
-msgstr "ATTENDEES"
+msgid "Attendees"
+msgstr "Attendees"
 
 msgid "You are now subscribed to {dojoName} dojo"
 msgstr "You are now subscribed to {dojoName} dojo"
 
-msgid "You can log in and find events hosted by this dojo in My Dojos"
-msgstr "You can log in and find events hosted by this dojo in My Dojos"
+msgid "You can log in and find events hosted by this dojo in {openLink}My Dojos{closeLink}"
+msgstr "You can log in and find events hosted by this dojo in {openLink}My Dojos{closeLink}"
 
 msgid "You will be notified about future events hosted by this dojo"
 msgstr "You will be notified about future events hosted by this dojo"
