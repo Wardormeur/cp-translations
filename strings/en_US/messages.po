@@ -3570,3 +3570,6 @@ msgstr "You will be notified about future events hosted by this dojo"
 
 msgid "Event Details"
 msgstr "Event Details"
+
+msgid "I want to join the CoderDojo Mailing List"
+msgstr "I want to join the CoderDojo Mailing List"
