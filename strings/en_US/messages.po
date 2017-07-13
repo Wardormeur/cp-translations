@@ -3339,3 +3339,9 @@ msgstr "{{ numMentors }} Mentors"
 
 msgid "Help Center"
 msgstr "Help Center"
+
+msgid "Created on {{ date }}"
+msgstr "Created on {{ date }}"
+
+msgid "Last updated on {{ date }}"
+msgstr "Last updated on {{ date }}"
