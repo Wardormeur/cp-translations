@@ -3,14 +3,12 @@
 
   <h1>Hi <%= applicantName %>,</h1>
 
-  <p>This is a notification to let you know that your request for a ticket for the below event has been received.</p>
-
-  <p>Once your request has been approved you will receive your ticket confirmation by email.</p>
+  <p><%= intro %></p>
 
   <h3>Order Summary</h3>
   <p> - Date: <%= applicationDate %></p>
   <p> - Session: <%= sessionName %></p>
-  <table>
+  <table class="contentTable">
     <thead>
       <th>Name</th>
       <th>Type</th>
@@ -25,13 +23,20 @@
         </tr>
       <% } %>
     </tbody>
-  </table>    
+  </table>
 
   <p>Status: <%= status %></p>
-  
+
   <h3>About this event</h3>
   <p> - Event date: <%= eventDate %></p>
   <p> - Event address: <%= event.address %></p>
+
+  <% if (applicationId) { %>
+    <p>
+      If you are unable to attend this event, please click this link to cancel your booking:
+      <a href="<%= cancelLinkBase + '/' + event.id + '/' + applicationId %>"><%= cancelLinkBase + '/' + event.id + '/' + applicationId %></a>
+    </p>
+  <% } %>
 
   <p>Best wishes,</br>
   The CoderDojo Foundation Team</p>

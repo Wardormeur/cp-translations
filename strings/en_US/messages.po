@@ -2611,8 +2611,8 @@ msgstr "Avatar upload: file must be an image."
 msgid "Avatar upload: max file size of 5MB exceeded."
 msgstr "Avatar upload: max file size of 5MB exceeded."
 
-msgid "has been cancelled"
-msgstr "has been cancelled"
+msgid "%1$s has been cancelled"
+msgstr "%1$s has been cancelled"
 
 msgid "Your ticket request for"
 msgstr "Your ticket request for"
@@ -3357,3 +3357,54 @@ msgstr "Your integration with eventbrite has been removed"
 
 msgid "Your eventbrite account has been successfully attached"
 msgstr "Your eventbrite account has been successfully attached"
+
+msgid "Your ticket request for %1$s is pending approval"
+msgstr "Your ticket request for %1$s is pending approval"
+
+msgid "A ticket has been booked for %1$s"
+msgstr "A ticket has been booked for %1$s"
+
+msgid "A ticket has been booked for your child for %1$s"
+msgstr "A ticket has been booked for your child for %1$s"
+
+msgid "Your childs ticket request for %1$s is pending approval"
+msgstr "Your childs ticket request for %1$s is pending approval"
+
+msgid "A ticket for your child for %1$s has been cancelled"
+msgstr "A ticket for your child for %1$s has been cancelled"
+
+msgid "A ticket request has been made for %1$s"
+msgstr "A ticket request has been made for %1$s"
+
+msgid "Your ticket status for %1$s has been changed to pending"
+msgstr "Your ticket status for %1$s has been changed to pending"
+
+msgid "Your childs ticket status for %1$s has been changed to pending"
+msgstr "Your childs ticket status for %1$s has been changed to pending"
+
+msgid "This is a notification to let you know that your request for a ticket for the below event has been received. Once your request has been approved you will receive your ticket confirmation by email."
+msgstr "This is a notification to let you know that your request for a ticket for the below event has been received. Once your request has been approved you will receive your ticket confirmation by email."
+
+msgid "This is your order confirmation for the below event."
+msgstr "This is your order confirmation for the below event."
+
+msgid "Your ticket has been cancelled for the below event."
+msgstr "Your ticket has been cancelled for the below event."
+
+msgid "Your ticket for %1$s has been booked"
+msgstr "Your ticket for %1$s has been booked"
+
+msgid "This is a notification to let you know that a request for a ticket for the below event has been received for your child %1s. Once the request has been approved they will receive their ticket confirmation by email."
+msgid_plural "This is a notification to let you know that requests for tickets for the below event have been received for your children %1s. Once the requests has been approved they will receive their ticket confirmations by email."
+msgstr[0] "This is a notification to let you know that a request for a ticket for the below event has been received for your child %1s. Once the request has been approved they will receive their ticket confirmation by email."
+msgstr[1] "This is a notification to let you know that requests for tickets for the below event have been received for your children %1s. Once the requests has been approved they will receive their ticket confirmations by email."
+
+msgid "This is an order confirmation for your child %1s for the below event."
+msgid_plural "This is an order confirmation for your children %1s for the below event."
+msgstr[0] "This is an order confirmation for your child %1s for the below event."
+msgstr[1] "This is an order confirmation for your children %1s for the below event."
+
+msgid "A ticket for your child %1s for the below event has been cancelled."
+msgid_plural "Tickets for your children %1s for the below event have been cancelled."
+msgstr[0] "A ticket for your child %1s for the below event has been cancelled."
+msgstr[1] "Tickets for your children %1s for the below event have been cancelled."
