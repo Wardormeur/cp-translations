@@ -3576,3 +3576,9 @@ msgstr "Event Details"
 
 msgid "I want to join the CoderDojo Mailing List"
 msgstr "I want to join the CoderDojo Mailing List"
+
+msgid "Created on {{ date }}"
+msgstr "Created on {{ date }}"
+
+msgid "Last updated on {{ date }}"
+msgstr "Last updated on {{ date }}"
