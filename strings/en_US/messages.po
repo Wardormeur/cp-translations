@@ -1893,8 +1893,8 @@ msgstr "Please add a comment to let us know the situation with public liability 
 msgid "If your Dojo takes place in a corporate office, school or library it is likely that the existing public liability insurance covers the Dojo. Make sure you check this with the venue host in advance of your first session. If it doesn’t, ask the venue to sponsor the cost of adding it to their policy."
 msgstr "If your Dojo takes place in a corporate office, school or library it is likely that the existing public liability insurance covers the Dojo. Make sure you check this with the venue host in advance of your first session. If it doesn’t, ask the venue to sponsor the cost of adding it to their policy."
 
-msgid "If you build it they will come! Pick a date for your first Dojo session and start working towards it. Dojos can run weekly, bi-weekly or monthly. They can be run on weekdays or weekends it all depends on what suits your community."
-msgstr "If you build it they will come! Pick a date for your first Dojo session and start working towards it. Dojos can run weekly, bi-weekly or monthly. They can be run on weekdays or weekends it all depends on what suits your community."
+msgid "If you build it they will come! Pick a date for your first Dojo session and start working towards it. Dojos can run weekly, once every two weeks or monthly. They can be run on weekdays or weekends it all depends on what suits your community."
+msgstr "If you build it they will come! Pick a date for your first Dojo session and start working towards it. Dojos can run weekly, once every two weeks or monthly. They can be run on weekdays or weekends it all depends on what suits your community."
 
 msgid "Embodying the Ethos"
 msgstr "Embodying the Ethos"
@@ -3158,8 +3158,8 @@ msgstr "Only modules for mentors and champions are available at the moment, come
 msgid "Do you agree?"
 msgstr "Do you agree?"
 
-msgid "A new dojo has been created"
-msgstr "A new dojo has been created!"
+msgid "A new Dojo has been created"
+msgstr "A new Dojo has been created!"
 
 msgid "You have been invited to a Dojo session"
 msgstr "You have been invited to a Dojo session"
@@ -3641,7 +3641,7 @@ msgid "First name"
 msgstr "First name"
 
 msgid "Last name"
-msgid "Last name"
+msgstr "Last name"
 
 msgid "Personal/Work email address"
 msgstr "Personal/Work email address"
@@ -3676,11 +3676,11 @@ msgstr "To become a Champion you do not need to have technical skills as you can
 msgid "Tell us how confident you feel in the following areas;"
 msgstr "Tell us how confident you feel in the following areas;"
 
-msgid "How confident are you in mentoring young people ?"
-msgstr "How confident are you in mentoring young people ?"
+msgid "How confident are you in mentoring young people?"
+msgstr "How confident are you in mentoring young people?"
 
-msgid "How confident are you in your coding and technology skills ?"
-msgstr "How confident are you in your coding and technology skills ?"
+msgid "How confident are you in your coding and technology skills?"
+msgstr "How confident are you in your coding and technology skills?"
 
 msgid "Not very"
 msgstr "Not very"
@@ -3709,11 +3709,11 @@ msgstr "Kings Cross, London @ Microsoft"
 msgid "Please avoid using the words “CoderDojo” or “Dojo” when naming your Dojo."
 msgstr "Please avoid using the words “CoderDojo” or “Dojo” when naming your Dojo."
 
-msgid "The Dojo Name should be formatted as [City/Town/State]@ [Sponsor/Venue Name] or in a large city [Neighbourhood/Area], [City] @ [Sponsor/Venue Name]"
-msgstr "The Dojo Name should be formatted as [City/Town/State]@ [Sponsor/Venue Name] or in a large city [Neighbourhood/Area], [City] @ [Sponsor/Venue Name]"
+msgid "The Dojo Name should be formatted as [City/Town/State] @ [Sponsor/Venue Name] or in a large city [Neighbourhood/Area], [City] @ [Sponsor/Venue Name]"
+msgstr "The Dojo Name should be formatted as [City/Town/State] @ [Sponsor/Venue Name] or in a large city [Neighbourhood/Area], [City] @ [Sponsor/Venue Name]"
 
-msgid "When will your dojo run?"
-msgstr "When will your dojo run?"
+msgid "When will your Dojo run?"
+msgstr "When will your Dojo run?"
 
 msgid "Help people searching for Dojos to find one that fits their schedule"
 msgstr "Help people searching for Dojos to find one that fits their schedule"
@@ -3760,8 +3760,8 @@ msgstr "Website (optional)"
 msgid "KingCrossDojo"
 msgstr "KingCrossDojo"
 
-msgid "Bi-weekly/Fortnightly/Every two weeks"
-msgstr "Bi-weekly/Fortnightly/Every two weeks"
+msgid "Every two weeks"
+msgstr "Every two weeks"
 
 msgid "Monthly"
 msgstr "Monthly"
@@ -3781,8 +3781,8 @@ msgstr "The venue is where the Dojo takes place."
 msgid "It should be a safe, accessible and fun space."
 msgstr "It should be a safe, accessible and fun space."
 
-msgid "Dojos cannot be held in a private residence or in venues inappropriate for young people; for example betting offices, bars etc."
-msgstr "Dojos cannot be held in a private residence or in venues inappropriate for young people; for example betting offices, bars etc."
+msgid "Dojos cannot be held in a private residence or in venues inappropriate for young people; for example betting offices, bars, etc."
+msgstr "Dojos cannot be held in a private residence or in venues inappropriate for young people; for example betting offices, bars, etc."
 
 msgid "Do you have a venue?"
 msgstr "Do you have a venue?"
@@ -3850,8 +3850,8 @@ msgstr "Volunteers can also help out by setting up the Dojo, checking in attende
 msgid "You can learn more about Mentors and Volunteers at Dojos in this short <a target=\"_blank\" href=\"/dashboard/profile/lms\">e-learning course.</a>"
 msgstr "You can learn more about Mentors and Volunteers at Dojos in this short <a target=\"_blank\" href=\"/dashboard/profile/lms\">e-learning course.</a>"
 
-msgid "Dojo must ensure all volunteers are vetted and approved in compliance with local child safeguarding legislation."
-msgstr "Dojo must ensure all volunteers are vetted and approved in compliance with local child safeguarding legislation."
+msgid "Dojos must ensure all volunteers are vetted and approved in compliance with local child safeguarding legislation."
+msgstr "Dojos must ensure all volunteers are vetted and approved in compliance with local child safeguarding legislation."
 
 msgid "You can learn more about global safeguarding requirements<a target=\"_blank\" href=\"http://kata.coderdojo.com/wiki/Child_Protection_Global\"> here </a> or by completing our <a target=\"_blank\" href=\"/dashboard/profile/lms\">global safeguarding e-learning course</a>"
 msgstr "You can learn more about global safeguarding requirements<a target=\"_blank\" href=\"http://kata.coderdojo.com/wiki/Child_Protection_Global\"> here </a> or by completing our <a target=\"_blank\" href=\"/dashboard/profile/lms\">global safeguarding e-learning course</a>"
@@ -3898,8 +3898,8 @@ msgstr "Parents of attendees"
 msgid "All global Dojos follow a common ethos and principles, such as always being free for children, and encouraging them to work together."
 msgstr "All global Dojos follow a common ethos and principles, such as always being free for children, and encouraging them to work together."
 
-msgid "All of these principles are  documented in the CoderDojo Charter."
-msgstr "All of these principles are  documented in the CoderDojo Charter."
+msgid "All of these principles are documented in the CoderDojo Charter."
+msgstr "All of these principles are documented in the CoderDojo Charter."
 
 msgid "To become a verified Dojo you must agree to follow all principles in the CoderDojo Charter."
 msgstr "To become a verified Dojo you must agree to follow all principles in the CoderDojo Charter."
@@ -3925,8 +3925,8 @@ msgstr "Review your application"
 msgid "Congratulations! Your Dojo application is being reviewed by a member of the CoderDojo Foundation team."
 msgstr "Congratulations! Your Dojo application is being reviewed by a member of the CoderDojo Foundation team."
 
-msgid "We will will respond to you within 48 hours, so hang tight while we check the information you have submitted."
-msgstr "We will will respond to you within 48 hours, so hang tight while we check the information you have submitted."
+msgid "We will respond to you within 48 hours, so hang tight while we check the information you have submitted."
+msgstr "We will respond to you within 48 hours, so hang tight while we check the information you have submitted."
 
 msgid "Something went wrong while submitting your application, please contact support"
 msgstr "Something went wrong while submitting your application, please contact support"
@@ -3937,8 +3937,8 @@ msgstr "Prepare yourself"
 msgid "While waiting for your verification, familiarise yourself with our content!"
 msgstr "While waiting for your verification, familiarise yourself with our content!"
 
-msgid "You didn't finish your application"
-msgstr "You didn't finish your application"
+msgid "Your application is incomplete"
+msgstr "Your application is incomplete"
 
 msgid "Contact us if you have a question"
 msgstr "Contact us if you have a question"
@@ -3949,8 +3949,8 @@ msgstr "Last updated on {{ date }}"
 msgid "Started on {{ date }}"
 msgstr "Started on {{ date }}"
 
-msgid "Expect a 2 day response time"
-msgstr "Expect a 2 day response time"
+msgid "Expect a response within 48 hours from our community team."
+msgstr "Expect a response within 48 hours from our community team."
 
 msgid "No response yet?"
 msgstr "No response yet?"
