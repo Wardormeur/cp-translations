@@ -3933,3 +3933,6 @@ msgstr "Edit your application"
 
 msgid "Continue your application"
 msgstr "Continue your application"
+
+msgid "Provide only your username (without ending slash)"
+msgstr "Provide only your username (without ending slash)"
