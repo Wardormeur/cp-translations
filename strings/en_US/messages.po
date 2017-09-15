@@ -3511,9 +3511,6 @@ msgstr "Unfortunately there are no dojos in your area at the moment. Please sear
 msgid "No Upcoming Events"
 msgstr "No Upcoming Events"
 
-msgid "There are no upcoming events planned for this Dojo. Please email {email} if you have any questions."
-msgstr "There are no upcoming events planned for this Dojo. Please email {email} if you have any questions."
-
 msgid "Show Map"
 msgstr "Show Map"
 
@@ -3945,3 +3942,36 @@ msgstr "{recurringFrequencyInfo} at {formattedStartTime} - {formattedEndTime}, f
 
 msgid "Don't see a Dojo in your area?"
 msgstr "Don't see a Dojo in your area?"
+
+msgid "Volunteer at this Dojo"
+msgstr "Volunteer at this Dojo"
+
+msgid "Mentors help the Ninjas with programming, while also helping the Champion run the Dojo efficiently"
+msgstr "Mentors help the Ninjas with programming, while also helping the Champion run the Dojo efficiently"
+
+msgid "Volunteer as Mentor"
+msgstr "Volunteer as Mentor"
+
+msgid "This Dojo needs Mentors!"
+msgstr "This Dojo needs Mentors!"
+
+msgid "The Champion handles every aspect of running the Dojo - from handing logistics to ticketing, to awarding badges to the Ninjas"
+msgstr "The Champion handles every aspect of running the Dojo - from handing logistics to ticketing, to awarding badges to the Ninjas"
+
+msgid "Volunteer as Champion"
+msgstr "Volunteer as Champion"
+
+msgid "Showing {firstOnPage} to {lastOnPage} of {total} Dojos"
+msgstr "Showing {firstOnPage} to {lastOnPage} of {total} Dojos"
+
+msgid "There are no upcoming events planned for this Dojo."
+msgstr "There are no upcoming events planned for this Dojo."
+
+msgid "Please join this Dojo for updates or email {email}"
+msgstr "Please join this Dojo for updates or email {email}"
+
+msgid "Please email {email} if you have any questions."
+msgstr "Please email {email} if you have any questions."
+
+msgid "Congratulations, you have now joined the Dojo."
+msgstr "Congratulations, you have now joined the Dojo."
