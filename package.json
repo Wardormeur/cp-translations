@@ -20,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/CoderDojo/cp-translations/issues"
   },
-  "homepage": "https://github.com/CoderDojo/cp-translations#readme"
+  "homepage": "https://github.com/CoderDojo/cp-translations#readme",
+  "dependencies": {
+    "traverse": "^0.6.6"
+  },
+  "devDependencies": {
+    "ejs-html": "^4.0.3",
+    "glob": "^7.1.2"
+  }
 }
