@@ -3975,3 +3975,12 @@ msgstr "Please email {email} if you have any questions."
 
 msgid "Congratulations, you have now joined the Dojo."
 msgstr "Congratulations, you have now joined the Dojo."
+
+msgid "{total} Dojos found near {query}"
+msgstr "{total} Dojos found near {query}"
+
+msgid "{total} Dojos found"
+msgstr "{total} Dojos found"
+
+msgid "you"
+msgstr "you"
