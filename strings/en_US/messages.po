@@ -3995,3 +3995,6 @@ msgstr "{total} Dojos found"
 
 msgid "you"
 msgstr "you"
+
+msgid "Your applications have been successfully cancelled."
+msgstr "Your applications have been successfully cancelled."
