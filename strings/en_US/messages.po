@@ -4004,3 +4004,6 @@ msgstr "Create your first event"
 
 msgid "Your Dojo must ve verified in order to use that functionnality"
 msgstr "Your Dojo must ve verified in order to use that functionnality"
+
+msgid "Congratulations on creating your event. When your Dojo is verified by the CoderDojo team, it will appear on your public listing."
+msgstr "Congratulations on creating your event. When your Dojo is verified by the CoderDojo team, it will appear on your public listing."
