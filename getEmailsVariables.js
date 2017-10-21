@@ -9,13 +9,13 @@ module.exports = (() => {
   }
   function getStringsFromFiles (fileName) {
     const file = fs.readFileSync(fileName);
-    console.log(fileName, file.toString())
     const rawTokens = ejs.parse(file.toString());
-    files[fileName] = [];
+    const filePath = fileName.split('/');
+    const fileNameKey = filePath[filePath.length - 1].replace('.html.ejs', '').replace('-en_US', '');
+    files[fileNameKey] = [];
     rawTokens.forEach((token) => {
-      traverse(fileName, token);
+      traverse(fileNameKey, token);
     })
-    console.log(files[fileName]);
   }
   // refactor to take the first level in
   function traverse (filename, node) {
@@ -36,11 +36,16 @@ module.exports = (() => {
         });
       }
     } else {
+      // Group under a generic key : 'templateName instead of ./path/to/template.html.ejs'
       if (node.type.indexOf('ejs') > -1) files[filename].push(node);
     }
   }
+  // TODO : exclude includes of footer/header
+  console.log('grabbing email-templates for en_us');
   const fileNames = getFileName("./email-templates/**-en_US/*.html.ejs");
   fileNames.forEach((fileName) => getStringsFromFiles(fileName));
+  console.log('writing snapshot/variables');
+  fs.writeFileSync('snapshot/variables.js', 'module.exports = ' + JSON.stringify(files));
 
   return files;
 })()
