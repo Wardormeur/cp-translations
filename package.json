@@ -4,7 +4,7 @@
   "description": "Translations for the CoderDojo Community Platform",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"No test specified\""
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/CoderDojo/cp-translations/issues"
   },
-  "homepage": "https://github.com/CoderDojo/cp-translations#readme"
+  "homepage": "https://github.com/CoderDojo/cp-translations#readme",
+  "devDependencies": {
+    "ejs": "^2.5.7",
+    "email-templates": "^2.0.1",
+    "mocha": "^4.0.1"
+  },
+  "dependencies": {}
 }

@@ -1,11 +1,10 @@
 machine:
   node:
-    version: 0.10.40
+    version: 8.6.0
   environment:
     LANG: en_US.utf8
 dependencies:
   pre:
-    - npm -g install npm@latest-2
     - echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
     - gem install mime-types -v 2.6.2
     - gem install rest-client -v 1.8
@@ -14,13 +13,13 @@ dependencies:
     - npm install
 test:
   override:
-    - npm run test
+    - for lang in it pt-PT de nl ro mt sl sk fr uk es-ES es-AR el pl et bg tr ja hi lt; do crowdin-cli download -l $lang; done
+    - yarn test
 deployment:
   production:
     branch: master
     commands:
       - crowdin-cli upload sources
-      - for lang in it pt-PT de nl ro mt sl sk fr uk es-ES es-AR el pl et bg tr ja hi lt; do crowdin-cli download -l $lang; done
       - git config --global user.email "webteam@coderdojo.com"
       - git config --global user.name "CoderDojo Foundation"
       - npm version patch -m "[skip ci] Update to %s"
@@ -30,6 +29,5 @@ deployment:
     branch: staging
     commands:
       - crowdin-cli upload sources -b staging
-      - for lang in it pt-PT de nl ro mt sl sk fr uk es-ES es-AR el pl et bg tr ja hi lt; do crowdin-cli download -b staging -l $lang; done
       - npm --no-git-tag-version version `node build/get-version.js`-`git rev-parse --short HEAD`
       - npm publish --tag=staging
