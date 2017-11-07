@@ -3998,3 +3998,9 @@ msgstr "you"
 
 msgid "Your applications have been successfully cancelled."
 msgstr "Your applications have been successfully cancelled."
+
+msgid "Dojos near {place}"
+msgstr "Dojos near {place}"
+
+msgid "Dojos near you"
+msgstr "Dojos near you"
