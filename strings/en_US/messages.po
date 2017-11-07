@@ -3385,6 +3385,14 @@ msgstr "Your ticket has been cancelled for the below event."
 msgid "Your ticket for %1$s has been booked"
 msgstr "Your ticket for %1$s has been booked"
 
+msgid "No ticket booked"
+msgstr "No ticket booked"
+
+msgid "Cancel ticket"
+msgid_plural "Cancel tickets"
+msgstr[0] "Cancel ticket"
+msgstr[1] "Cancel tickets"
+
 msgid "This is a notification to let you know that a request for a ticket for the below event has been received for your child %1s. Once the request has been approved they will receive their ticket confirmation by email."
 msgid_plural "This is a notification to let you know that requests for tickets for the below event have been received for your children %1s. Once the requests has been approved they will receive their ticket confirmations by email."
 msgstr[0] "This is a notification to let you know that a request for a ticket for the below event has been received for your child %1s. Once the request has been approved they will receive their ticket confirmation by email."
@@ -3967,6 +3975,9 @@ msgstr "Showing {firstOnPage} to {lastOnPage} of {total} Dojos"
 msgid "There are no upcoming events planned for this Dojo."
 msgstr "There are no upcoming events planned for this Dojo."
 
+msgid "There are no upcoming events planned for your Dojos."
+msgstr "There are no upcoming events planned for your Dojos."
+
 msgid "Please join this Dojo for updates or email {email}"
 msgstr "Please join this Dojo for updates or email {email}"
 
@@ -3975,3 +3986,21 @@ msgstr "Please email {email} if you have any questions."
 
 msgid "Congratulations, you have now joined the Dojo."
 msgstr "Congratulations, you have now joined the Dojo."
+
+msgid "{total} Dojos found near {query}"
+msgstr "{total} Dojos found near {query}"
+
+msgid "{total} Dojos found"
+msgstr "{total} Dojos found"
+
+msgid "you"
+msgstr "you"
+
+msgid "Your applications have been successfully cancelled."
+msgstr "Your applications have been successfully cancelled."
+
+msgid "Dojos near {place}"
+msgstr "Dojos near {place}"
+
+msgid "Dojos near you"
+msgstr "Dojos near you"
