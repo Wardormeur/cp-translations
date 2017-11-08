@@ -4004,3 +4004,9 @@ msgstr "Dojos near {place}"
 
 msgid "Dojos near you"
 msgstr "Dojos near you"
+
+msgid "You will be notified when the organizer approves your request."
+msgstr "You will be notified when the organizer approves your request."
+
+msgid "Booking Request Sent"
+msgstr "Booking Request Sent"
