@@ -4004,3 +4004,12 @@ msgstr "Dojos near {place}"
 
 msgid "Dojos near you"
 msgstr "Dojos near you"
+
+msgid "Hide"
+msgstr "Hide"
+
+msgid "Read full event details"
+msgstr "Read full event details"
+
+msgid "Event details"
+msgstr "Event details"
