@@ -4010,3 +4010,6 @@ msgstr "You will be notified when the organizer approves your request."
 
 msgid "Booking Request Sent"
 msgstr "Booking Request Sent"
+
+msgid "Your tickets are now awaiting approval"
+msgstr "Your tickets are now awaiting approval"
