@@ -3909,12 +3909,6 @@ msgstr "We will respond to you within 48 hours, so hang tight while we check the
 msgid "Something went wrong while submitting your application, please contact support"
 msgstr "Something went wrong while submitting your application, please contact support"
 
-msgid "Prepare yourself"
-msgstr "Prepare yourself"
-
-msgid "While waiting for your verification, familiarise yourself with our content!"
-msgstr "While waiting for your verification, familiarise yourself with our content!"
-
 msgid "Your application is incomplete"
 msgstr "Your application is incomplete"
 
@@ -4004,3 +3998,9 @@ msgstr "Dojos near {place}"
 
 msgid "Dojos near you"
 msgstr "Dojos near you"
+
+msgid "Create your first event"
+msgstr "Create your first event"
+
+msgid "Your Dojo must ve verified in order to use that functionnality"
+msgstr "Your Dojo must ve verified in order to use that functionnality"
