@@ -3999,6 +3999,15 @@ msgstr "Dojos near {place}"
 msgid "Dojos near you"
 msgstr "Dojos near you"
 
+msgid "You will be notified when the organizer approves your request."
+msgstr "You will be notified when the organizer approves your request."
+
+msgid "Booking Request Sent"
+msgstr "Booking Request Sent"
+
+msgid "Your tickets are now awaiting approval"
+msgstr "Your tickets are now awaiting approval"
+
 msgid "Create your first event"
 msgstr "Create your first event"
 
