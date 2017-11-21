@@ -4037,3 +4037,6 @@ msgstr "This Dojo had events recently. Join the Dojo to get notified when ticket
 
 msgid "Please select at least one ticket"
 msgstr "Please select at least one ticket"
+
+msgid "If you are a parent or a guardian booking tickets for a child, please still tell us your Date of Birth"
+msgstr "If you are a parent or a guardian booking tickets for a child, please still tell us your Date of Birth"
