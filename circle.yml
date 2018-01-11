@@ -13,7 +13,7 @@ dependencies:
     - npm install
 test:
   override:
-    - for lang in it pt-PT de nl ro mt sl sk fr uk es-ES es-AR el pl et bg tr ja hi lt; do crowdin-cli download -l $lang; done
+    - for lang in it pt-PT de nl ro mt sl sk fr uk es-ES es-AR el pl et bg tr ja hi lt zh-CN id si-LK ur-PK zh-TW fil; do crowdin-cli download -l $lang; done
     - yarn test
 deployment:
   production:
