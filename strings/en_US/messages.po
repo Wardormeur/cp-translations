@@ -4007,3 +4007,6 @@ msgstr "Your Dojo must ve verified in order to use that functionnality"
 
 msgid "Congratulations on creating your event. When your Dojo is verified by the CoderDojo team, it will appear on your public listing."
 msgstr "Congratulations on creating your event. When your Dojo is verified by the CoderDojo team, it will appear on your public listing."
+
+msgid "Email is already associated with an account. Use a new email or leave it blank."
+msgstr "Email is already associated with an account. Use a new email or leave it blank."
