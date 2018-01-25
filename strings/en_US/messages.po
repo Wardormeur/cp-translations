@@ -3999,6 +3999,9 @@ msgstr "Your Dojo must ve verified in order to use that functionnality"
 msgid "Congratulations on creating your event. When your Dojo is verified by the CoderDojo team, it will appear on your public listing."
 msgstr "Congratulations on creating your event. When your Dojo is verified by the CoderDojo team, it will appear on your public listing."
 
+msgid "Email is already associated with an account. Use a new email or leave it blank to receive all correspondence on their behalf."
+msgstr "Email is already associated with an account. Use a new email or leave it blank to receive all correspondence on their behalf."
+
 msgid "No Listed Events"
 msgstr "No Listed Events"
 
@@ -4010,3 +4013,4 @@ msgstr "Please email the Dojo on {email} to find out about their upcoming events
 
 msgid "Please join this Dojo for updates and email the Dojo on {email} to find out about their upcoming events."
 msgstr "Please join this Dojo for updates and email the Dojo on {email} to find out about their upcoming events."
+
