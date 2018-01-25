@@ -3966,17 +3966,8 @@ msgstr "Volunteer as Champion"
 msgid "Showing {firstOnPage} to {lastOnPage} of {total} Dojos"
 msgstr "Showing {firstOnPage} to {lastOnPage} of {total} Dojos"
 
-msgid "There are no upcoming events planned for this Dojo."
-msgstr "There are no upcoming events planned for this Dojo."
-
 msgid "There are no upcoming events planned for your Dojos."
 msgstr "There are no upcoming events planned for your Dojos."
-
-msgid "Please join this Dojo for updates or email {email}"
-msgstr "Please join this Dojo for updates or email {email}"
-
-msgid "Please email {email} if you have any questions."
-msgstr "Please email {email} if you have any questions."
 
 msgid "Congratulations, you have now joined the Dojo."
 msgstr "Congratulations, you have now joined the Dojo."
@@ -4010,3 +4001,16 @@ msgstr "Congratulations on creating your event. When your Dojo is verified by th
 
 msgid "Email is already associated with an account. Use a new email or leave it blank to receive all correspondence on their behalf."
 msgstr "Email is already associated with an account. Use a new email or leave it blank to receive all correspondence on their behalf."
+
+msgid "No Listed Events"
+msgstr "No Listed Events"
+
+msgid "This Dojo may list their events on another website or they may encourage people to attend without booking."
+msgstr "This Dojo may list their events on another website or they may encourage people to attend without booking."
+
+msgid "Please email the Dojo on {email} to find out about their upcoming events."
+msgstr "Please email the Dojo on {email} to find out about their upcoming events."
+
+msgid "Please join this Dojo for updates and email the Dojo on {email} to find out about their upcoming events."
+msgstr "Please join this Dojo for updates and email the Dojo on {email} to find out about their upcoming events."
+
