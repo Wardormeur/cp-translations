@@ -1,6 +1,6 @@
 {
   "name": "cp-translations",
-  "version": "1.0.84",
+  "version": "1.0.85",
   "description": "Translations for the CoderDojo Community Platform",
   "main": "index.js",
   "scripts": {
