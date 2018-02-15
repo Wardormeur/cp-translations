@@ -4014,3 +4014,5 @@ msgstr "Please email the Dojo on {email} to find out about their upcoming events
 msgid "Please join this Dojo for updates and email the Dojo on {email} to find out about their upcoming events."
 msgstr "Please join this Dojo for updates and email the Dojo on {email} to find out about their upcoming events."
 
+msgid "There was a problem connecting your account to Eventbrite. Please make sure you are not using private browsing and try again. If this error appears again contact info@coderdojo.com and we will try to help you."
+msgstr "There was a problem connecting your account to Eventbrite. Please make sure you are not using private browsing and try again. If this error appears again contact info@coderdojo.com and we will try to help you."
