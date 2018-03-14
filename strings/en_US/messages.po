@@ -4025,3 +4025,12 @@ msgstr "The event is fully booked, please wait for the next event or look for ot
 
 msgid "Next event on {date}"
 msgstr "Next event on {date}"
+
+msgid "Recent Events"
+msgstr "Recent Events"
+
+msgid "This Dojo had events recently. You\'ll be notified when tickets for the next event are available."
+msgstr "This Dojo had events recently. You\'ll be notified when tickets for the next event are available."
+
+msgid "This Dojo had events recently. Join the Dojo to get notified when tickets for the next event are available."
+msgstr "This Dojo had events recently. Join the Dojo to get notified when tickets for the next event are available."
