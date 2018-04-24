@@ -4037,3 +4037,18 @@ msgstr "This Dojo had events recently. Join the Dojo to get notified when ticket
 
 msgid "Please select at least one ticket"
 msgstr "Please select at least one ticket"
+
+msgid "Email should be in the format: janedoe@example.com"
+msgstr "Email should be in the format: janedoe@example.com"
+
+msgid "Password is required"
+msgstr "Password is required"
+
+msgid "There was a problem logging in: {msg}"
+msgstr "There was a problem logging in: {msg}"
+
+msgid "Don't have an account?"
+msgstr "Don't have an account?"
+
+msgid "Register here"
+msgstr "Register here"
