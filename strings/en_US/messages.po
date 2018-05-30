@@ -3441,8 +3441,8 @@ msgstr "Search for Dojos"
 msgid "Detect my location"
 msgstr "Detect my location"
 
-msgid "CoderDojo Account has been created"
-msgstr "CoderDojo Account has been created"
+msgid "Your CoderDojo account has been created"
+msgstr "Your CoderDojo account has been created"
 
 msgid "Booking Complete"
 msgstr "Booking Complete"
