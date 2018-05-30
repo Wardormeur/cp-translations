@@ -4052,3 +4052,6 @@ msgstr "Don't have an account?"
 
 msgid "Register here"
 msgstr "Register here"
+
+msgid "Add another youth ticket"
+msgstr "Add another youth ticket"
