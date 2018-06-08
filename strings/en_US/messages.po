@@ -4064,3 +4064,6 @@ msgstr "Special requirements"
 
 msgid "Please tell us about any special requirements that we might need to know of here (eg. need wheelchair access)"
 msgstr "Please tell us about any special requirements that we might need to know of here (eg. need wheelchair access)"
+
+msgid "Not attending"
+msgstr "Not attending"
