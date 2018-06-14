@@ -1,0 +1,45 @@
+<% include ../common-en_US/headerv2.ejs %>
+<div style="background: #642580;color: #fff;text-align: center;padding-top: 1px;">
+    <% if (approvalRequired) { %>
+    <h1 style="margin: 32px;font-size: 28px;">Booking request sent</h1>
+    <p style="margin: 32px 64px;font-size: 18px;">You will receive a confirmation email once the organizer approves your request.</p>
+    <% } else { %>
+    <h1 style="margin: 32px;font-size: 28px;">Your booking is confirmed!</h1>
+    <% } %>
+    <h2 style="font-size: 18px;margin: 4px;"><%= event.name %></h2>
+    <h3 style="margin: 4px;font-size: 16px;font-weight: normal;">Event hosted by <a href="<%= process.env.URL_BASE %>/dojos/<%= dojo.id %>" style="color: #fff;text-decoration: none;font-weight: bold;border-bottom: 1px dotted #fff;"><%= dojo.name %></a></h3>
+    <img src="https://static.coderdojo.com/images/CD_Character_SVGS-32.png" style="margin: 24px 0 -3px 0;">
+</div>
+<table style="text-align: center;width: 100%;margin: 24px 0;border-spacing: 24px 0;">
+    <tr>
+        <th style="display: table-cell;width: 50%;text-align: left;border: 1px solid #ddd;vertical-align: top;border-bottom-width: 0;"><h1 style="text-transform: uppercase;font-size: 18px;margin: 0;padding: 12px;color: #41BAC1;font-weight: normal;">Event Details</h1></th>
+        <th style="display: table-cell;width: 50%;text-align: left;border: 1px solid #ddd;vertical-align: top;border-bottom-width: 0;"><h1 style="text-transform: uppercase;font-size: 18px;margin: 0;padding: 12px;color: #41BAC1;font-weight: normal;">Attendees</h1></th>
+    </tr>
+    <tr>
+        <td style="display: table-cell;width: 50%;text-align: left;border: 1px solid #ddd;vertical-align: top;border-bottom-width: 2px;">
+            <p style="margin: 12px;"><strong><%= eventDate %></strong> | <%= eventTime %></p>
+            <p style="margin: 12px;"><%= event.address %></p>
+            <% if (event.position) { %>
+            <p style="margin: 12px;"><a href="https://www.google.com/maps/search/?api=1&query=<%= event.position.lat %>,<%= event.position.lng %>" style="color: #642580;text-decoration: none;font-weight: bold;font-size: 14px;">Open in Google Maps</a></p>
+            <% } else { %>
+            <p style="margin: 12px;"><a href="https://www.google.com/maps/search/?api=1&query=<%= encodeURIComponent(dojo.address) %>" style="color: #642580;text-decoration: none;font-weight: bold;font-size: 14px;">Open in Google Maps</a></p>
+            <% } %>
+        </td>
+        <td style="display: table-cell;width: 50%;text-align: left;border: 1px solid #ddd;vertical-align: top;border-bottom-width: 2px;">
+            <% for (let i = 0; i < applications.length; i += 1) { %>
+            <p style="margin: 12px;">
+                <strong><%= applications[i].name %></strong>
+                <span style="display: block;color: #7B8082;font-size: 14px;"><%= applications[i].ticketType %> / <%= applications[i].ticketName %></span>
+            </p>
+            <% } %>
+        </td>
+    </tr>
+</table>
+<p style="margin: 8px 24px;text-align: center;">If you are unable to attend this event, please <a href="<%= process.env.URL_BASE %>/dashboard/tickets" style="color: #642580;text-decoration: none;font-weight: bold;">cancel your booking</a>.</p>
+<h4 style="margin: 32px 24px 4px 24px;">Questions?</h4>
+<p style="margin: 8px 24px;">If you have any questions about the event, please contact the Dojo at <a href="mailto:<%= dojo.email %>" style="color: #642580;text-decoration: none;font-weight: bold;"><%= dojo.email %></a></p>
+<p style="margin: 8px 24px;">Please do not reply to this email. This is an auto-generated email.</p>
+<hr style="border-top: 1px solid #BEBEBE;margin: 32px 24px;">
+<h4 style="margin: 32px 24px 4px 24px;">Event Description</h4>
+<p style="margin: 8px 24px;"><%= event.description %></p>
+<% include ../common-en_US/footerv2.ejs %>

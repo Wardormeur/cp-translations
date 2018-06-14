@@ -236,3 +236,15 @@ files:
     dest: '/dojos-user-request-to-join.text.txt'
     translation: '/email-templates/user-request-to-join-%locale_with_underscore%/%file_name%.ejs'
     type: 'txt'
+
+  -
+    source: '/email-templates/booking-confirmed-en_US/booking-confirmed.html.ejs'
+    dest: '/booking-confirmed.html.html'
+    translation: '/email-templates/booking-confirmed-%locale_with_underscore%/%file_name%.ejs'
+    type: 'html'
+
+  -
+    source: '/email-templates/booking-confirmed-en_US/booking-confirmed.text.ejs'
+    dest: '/booking-confirmed.text.txt'
+    translation: '/email-templates/booking-confirmed-%locale_with_underscore%/%file_name%.ejs'
+    type: 'txt'
