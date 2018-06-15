@@ -254,3 +254,39 @@ files:
     dest: '/booking-confirmed.subject.txt'
     translation: '/email-templates/booking-confirmed-%locale_with_underscore%/subject.ejs'
     type: 'txt'
+
+  -
+    source: '/email-templates/ticket-application-approved-to-dojo-en_US/html.ejs'
+    dest: '/email-templates/ticket-application-approved-to-dojo-en_US/html.html'
+    translation: '/email-templates/ticket-application-approved-to-dojo-%locale_with_underscore%/%file_name%.ejs'
+    type: 'html'
+
+  -
+    source: '/email-templates/ticket-application-approved-to-dojo-en_US/text.ejs'
+    dest: '/email-templates/ticket-application-approved-to-dojo-en_US/text.txt'
+    translation: '/email-templates/ticket-application-approved-to-dojo-%locale_with_underscore%/%file_name%.ejs'
+    type: 'txt'
+
+  -
+    source: '/email-templates/ticket-application-approved-to-dojo-en_US/subject.ejs'
+    dest: '/email-templates/ticket-application-approved-to-dojo-en_US/subject.txt'
+    translation: '/email-templates/ticket-application-approved-to-dojo-%locale_with_underscore%/%file_name%.ejs'
+    type: 'txt'
+
+  -
+    source: '/email-templates/ticket-application-received-to-dojo-en_US/html.ejs'
+    dest: '/email-templates/ticket-application-received-to-dojo-en_US/html.html'
+    translation: '/email-templates/ticket-application-received-to-dojo-%locale_with_underscore%/%file_name%.ejs'
+    type: 'html'
+
+  -
+    source: '/email-templates/ticket-application-received-to-dojo-en_US/text.ejs'
+    dest: '/email-templates/ticket-application-received-to-dojo-en_US/text.txt'
+    translation: '/email-templates/ticket-application-received-to-dojo-%locale_with_underscore%/%file_name%.ejs'
+    type: 'txt'
+
+  -
+    source: '/email-templates/ticket-application-received-to-dojo-en_US/subject.ejs'
+    dest: '/email-templates/ticket-application-received-to-dojo-en_US/subject.txt'
+    translation: '/email-templates/ticket-application-received-to-dojo-%locale_with_underscore%/%file_name%.ejs'
+    type: 'txt'
