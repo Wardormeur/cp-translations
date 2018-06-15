@@ -238,13 +238,19 @@ files:
     type: 'txt'
 
   -
-    source: '/email-templates/booking-confirmed-en_US/booking-confirmed.html.ejs'
+    source: '/email-templates/booking-confirmed-en_US/html.ejs'
     dest: '/booking-confirmed.html.html'
-    translation: '/email-templates/booking-confirmed-%locale_with_underscore%/%file_name%.ejs'
+    translation: '/email-templates/booking-confirmed-%locale_with_underscore%/html.ejs'
     type: 'html'
 
   -
-    source: '/email-templates/booking-confirmed-en_US/booking-confirmed.text.ejs'
+    source: '/email-templates/booking-confirmed-en_US/text.ejs'
     dest: '/booking-confirmed.text.txt'
-    translation: '/email-templates/booking-confirmed-%locale_with_underscore%/%file_name%.ejs'
+    translation: '/email-templates/booking-confirmed-%locale_with_underscore%/text.ejs'
+    type: 'txt'
+
+  -
+    source: '/email-templates/booking-confirmed-en_US/subject.ejs'
+    dest: '/booking-confirmed.subject.txt'
+    translation: '/email-templates/booking-confirmed-%locale_with_underscore%/subject.ejs'
     type: 'txt'

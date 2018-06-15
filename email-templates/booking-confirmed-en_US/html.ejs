@@ -1,6 +1,6 @@
 <% include ../common-en_US/headerv2.ejs %>
 <div style="background: #642580;color: #fff;text-align: center;padding-top: 1px;">
-    <% if (approvalRequired) { %>
+    <% if (event.ticketApproval) { %>
     <h1 style="margin: 32px;font-size: 28px;">Booking request sent</h1>
     <p style="margin: 32px 64px;font-size: 18px;">You will receive a confirmation email once the organizer approves your request.</p>
     <% } else { %>
@@ -22,7 +22,7 @@
             <% if (event.position) { %>
             <p style="margin: 12px;"><a href="https://www.google.com/maps/search/?api=1&query=<%= event.position.lat %>,<%= event.position.lng %>" style="color: #642580;text-decoration: none;font-weight: bold;font-size: 14px;">Open in Google Maps</a></p>
             <% } else { %>
-            <p style="margin: 12px;"><a href="https://www.google.com/maps/search/?api=1&query=<%= encodeURIComponent(dojo.address) %>" style="color: #642580;text-decoration: none;font-weight: bold;font-size: 14px;">Open in Google Maps</a></p>
+            <p style="margin: 12px;"><a href="https://www.google.com/maps/search/?api=1&query=<%= encodeURIComponent(event.address) %>" style="color: #642580;text-decoration: none;font-weight: bold;font-size: 14px;">Open in Google Maps</a></p>
             <% } %>
         </td>
         <td style="display: table-cell;width: 50%;text-align: left;border: 1px solid #ddd;vertical-align: top;border-bottom-width: 2px;">
@@ -41,5 +41,5 @@
 <p style="margin: 8px 24px;">Please do not reply to this email. This is an auto-generated email.</p>
 <hr style="border-top: 1px solid #BEBEBE;margin: 32px 24px;">
 <h4 style="margin: 32px 24px 4px 24px;">Event Description</h4>
-<p style="margin: 8px 24px;"><%= event.description %></p>
+<p style="margin: 8px 24px;"><%- event.description %></p>
 <% include ../common-en_US/footerv2.ejs %>
