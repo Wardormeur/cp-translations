@@ -4077,9 +4077,6 @@ msgstr "Not attending"
 msgid "Your tickets are now awaiting approval"
 msgstr "Your tickets are now awaiting approval"
 
-msgid "You will be notified about future events hosted by this dojo"
-msgstr "You will be notified about future events hosted by this dojo"
-
 msgid "You will be notified when the organizer approves your request."
 msgstr "You will be notified when the organizer approves your request."
 
@@ -4098,8 +4095,8 @@ msgstr "Identify as..."
 msgid "Specify Identity"
 msgstr "Specify Identity"
 
-msgid "To check how well we are succeeding, we\'d like to find out whether or not people of different genders are equally likely to take part."
-msgstr "To check how well we are succeeding, we\'d like to find out whether or not people of different genders are equally likely to take part."
+msgid "To check how well we are succeeding, we'd like to find out whether or not people of different genders are equally likely to take part."
+msgstr "To check how well we are succeeding, we'd like to find out whether or not people of different genders are equally likely to take part."
 
 msgid "We want to provide activities that appeal to people regardless of their gender."
 msgstr "We want to provide activities that appeal to people regardless of their gender."
@@ -4148,8 +4145,8 @@ msgstr "NOTE: Parent attendance is highly encouraged, and in some cases mandator
 msgid "Keep an eye out for future events!"
 msgstr "Keep an eye out for future events!"
 
-msgid "We\'re sorry, there are no tickets left."
-msgstr "We\'re sorry, there are no tickets left."
+msgid "We're sorry, there are no tickets left."
+msgstr "We're sorry, there are no tickets left."
 
 msgid "Forgot password?"
 msgstr "Forgot password?"
@@ -4187,8 +4184,8 @@ msgstr "Email address"
 msgid "Your email"
 msgstr "Your email"
 
-msgid "We collect these details to allow Dojos to contact attendees\' parents."
-msgstr "We collect these details to allow Dojos to contact attendees\' parents."
+msgid "We collect these details to allow Dojos to contact attendees' parents."
+msgstr "We collect these details to allow Dojos to contact attendees' parents."
 
 msgid "If you are a parent or a guardian booking tickets for a child, or a child over 13 please still tell us your details here."
 msgstr "If you are a parent or a guardian booking tickets for a child, or a child over 13 please still tell us your details here."
