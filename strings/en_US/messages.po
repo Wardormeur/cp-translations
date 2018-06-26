@@ -4231,3 +4231,6 @@ msgstr "Next in series:"
 
 msgid "Dojo supported by"
 msgstr "Dojo supported by"
+
+msgid "Please select a ticket or \"Not attending\""
+msgstr "Please select a ticket or \"Not attending\""
