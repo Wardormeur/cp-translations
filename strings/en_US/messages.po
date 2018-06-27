@@ -4234,3 +4234,6 @@ msgstr "Dojo supported by"
 
 msgid "Please select a ticket or \"Not attending\""
 msgstr "Please select a ticket or \"Not attending\""
+
+msgid "Youth tickets are for attendees 17 years or younger. No ticket is required for guardians or parents."
+msgstr "Youth tickets are for attendees 17 years or younger. No ticket is required for guardians or parents."
