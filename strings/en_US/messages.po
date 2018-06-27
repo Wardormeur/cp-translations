@@ -4041,8 +4041,8 @@ msgstr "This Dojo had events recently. You'll be notified when tickets for the n
 msgid "This Dojo had events recently. Join the Dojo to get notified when tickets for the next event are available."
 msgstr "This Dojo had events recently. Join the Dojo to get notified when tickets for the next event are available."
 
-msgid "Please select at least one ticket"
-msgstr "Please select at least one ticket"
+msgid "There are some errors with your booking. Please scroll up and follow the tips to finish this booking."
+msgstr "There are some errors with your booking. Please scroll up and follow the tips to finish this booking."
 
 msgid "Email should be in the format: janedoe@example.com"
 msgstr "Email should be in the format: janedoe@example.com"
