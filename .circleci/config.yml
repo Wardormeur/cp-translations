@@ -1,0 +1,58 @@
+---
+version: 2
+jobs:
+  test:
+    working_directory: ~/cp-translations
+    docker:
+      - image: circleci/node:8
+    steps:
+      - checkout
+      - run:
+        name: Install Crowdin CLI
+        command: |
+          gem install mime-types -v 2.6.2
+          gem install rest-client -v 1.8
+          gem install crowdin-cli -v 0.5.5
+      - run:
+        name: Download and test translations
+        command: |
+          for lang in it pt-PT de nl ro mt sl sk fr uk es-ES es-AR el pl et bg tr ja hi lt zh-CN id si-LK ur-PK zh-TW fil; do crowdin-cli download -l $lang; done
+          yarn test
+  publish:
+    working_directory: ~/cp-translations
+    docker:
+      - image: circleci/node:8
+    steps:
+      - checkout
+      - run:
+        name: Setup .npmrc
+        command: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
+      - run:
+        name: Install Crowdin CLI
+        command: |
+          gem install mime-types -v 2.6.2
+          gem install rest-client -v 1.8
+          gem install crowdin-cli -v 0.5.5
+      - run:
+        name: Upload sources
+        command: crowdin-cli upload sources
+      - run:
+        name: Publish to NPM
+        command: |
+          git config --global user.email "webteam@coderdojo.com"
+          git config --global user.name "CoderDojo Foundation"
+          npm version patch -m "[skip ci] Update to %s"
+          git push
+          npm publish
+workflows:
+  version: 2
+  test-and-deploy:
+    jobs:
+      - test
+      - publish:
+          requires:
+            - test
+          filters:
+            branches:
+              only:
+                - master
