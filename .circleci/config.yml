@@ -15,6 +15,9 @@ jobs:
             sudo gem install rest-client -v 1.8
             sudo gem install crowdin-cli -v 0.5.5
       - run:
+          name: Install deps
+          command: yarn
+      - run:
           name: Download and test translations
           command: |
             for lang in it pt-PT de nl ro mt sl sk fr uk es-ES es-AR el pl et bg tr ja hi lt zh-CN id si-LK ur-PK zh-TW fil; do crowdin-cli download -l $lang; done
