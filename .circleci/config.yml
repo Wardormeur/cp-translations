@@ -10,6 +10,7 @@ jobs:
       - run:
           name: Install Crowdin CLI
           command: |
+            sudo apt-get install rubygems
             gem install mime-types -v 2.6.2
             gem install rest-client -v 1.8
             gem install crowdin-cli -v 0.5.5
@@ -30,6 +31,7 @@ jobs:
       - run:
           name: Install Crowdin CLI
           command: |
+            sudo apt-get install rubygems
             gem install mime-types -v 2.6.2
             gem install rest-client -v 1.8
             gem install crowdin-cli -v 0.5.5
