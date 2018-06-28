@@ -27,6 +27,9 @@ jobs:
     docker:
       - image: circleci/node:8
     steps:
+      - add-ssh-keys:
+          fingerprints:
+            - "7c:58:32:cd:93:00:d6:85:ff:34:84:1b:a1:e7:ee:39"
       - checkout
       - run:
           name: Setup .npmrc
