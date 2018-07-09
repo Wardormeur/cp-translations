@@ -4243,3 +4243,6 @@ msgstr "Youth ticket"
 
 msgid "There are no {userType} tickets available for this event. Please contact your Dojo for more information."
 msgstr "There are no {userType} tickets available for this event. Please contact your Dojo for more information."
+
+msgid "We're sorry, one or more of your tickets is over capacity"
+msgstr "We're sorry, one or more of your tickets is over capacity"
