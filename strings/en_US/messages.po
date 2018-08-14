@@ -1629,8 +1629,8 @@ msgstr "Select event date..."
 msgid "Password must be a minimum of 8 characters in length and contain at least one number or punctuation character"
 msgstr "Password must be a minimum of 8 characters in length and contain at least one number or punctuation character"
 
-msgid "Password must be at least 8 characters with at least one number."
-msgstr "Password must be at least 8 characters with at least one number."
+msgid "Password must be at least eight characters, with at least one number."
+msgstr "Password must be at least eight characters, with at least one number."
 
 msgid "Password must not be the same as your email address"
 msgstr "Password must not be the same as your email address"
@@ -3462,6 +3462,9 @@ msgstr "Last name"
 msgid "Phone number"
 msgstr "Phone number"
 
+msgid "Phone number of a parent/guardian"
+msgstr "Phone number of a parent/guardian"
+
 msgid "Month"
 msgstr "Month"
 
@@ -3480,8 +3483,8 @@ msgstr "Not Listed"
 msgid "Prefer not to answer"
 msgstr "Prefer not to answer"
 
-msgid "Book Event"
-msgstr "Book Event"
+msgid "Book event tickets"
+msgstr "Book event tickets"
 
 msgid "You will need your parent to carry out the registration."
 msgstr "You will need your parent to carry out the registration."
@@ -3489,8 +3492,8 @@ msgstr "You will need your parent to carry out the registration."
 msgid "Please verify your age"
 msgstr "Please verify your age"
 
-msgid "Enter your Date of Birth"
-msgstr "Enter your Date of Birth"
+msgid "Enter your date of birth"
+msgstr "Enter your date of birth"
 
 msgid "Upcoming Events"
 msgstr "Upcoming Events"
@@ -3510,8 +3513,8 @@ msgstr "Proceed"
 msgid "Showing {total} Dojos"
 msgstr "Showing {total} Dojos"
 
-msgid "I agree with {openLinkTag}Terms & Conditions{closingLinkTag}"
-msgstr "I agree with {openLinkTag}Terms & Conditions{closingLinkTag}"
+msgid "I agree with the {openLinkTag}Terms & Conditions{closingLinkTag}"
+msgstr "I agree with the {openLinkTag}Terms & Conditions{closingLinkTag}"
 
 msgid "I consent to the use of my data ({openLinkTag}Data policy{closingLinkTag})"
 msgstr "I consent to the use of my data ({openLinkTag}Data policy{closingLinkTag})"
@@ -3561,8 +3564,8 @@ msgstr "You will be notified about future events hosted by this Dojo"
 msgid "Event Details"
 msgstr "Event Details"
 
-msgid "I want to join the CoderDojo Mailing List"
-msgstr "I want to join the CoderDojo Mailing List"
+msgid "I want to join the CoderDojo mailing list"
+msgstr "I want to join the CoderDojo mailing list"
 
 msgid "Created on {{ date }}"
 msgstr "Created on {{ date }}"
@@ -4041,8 +4044,8 @@ msgstr "This Dojo had events recently. You'll be notified when tickets for the n
 msgid "This Dojo had events recently. Join the Dojo to get notified when tickets for the next event are available."
 msgstr "This Dojo had events recently. Join the Dojo to get notified when tickets for the next event are available."
 
-msgid "There are some errors with your booking. Please scroll up and follow the tips to finish this booking."
-msgstr "There are some errors with your booking. Please scroll up and follow the tips to finish this booking."
+msgid "Your booking information is incomplete. Please scroll up and follow the hints to complete the booking."
+msgstr "Your booking information is incomplete. Please scroll up and follow the hints to complete the booking."
 
 msgid "Email should be in the format: janedoe@example.com"
 msgstr "Email should be in the format: janedoe@example.com"
@@ -4062,14 +4065,14 @@ msgstr "Register here"
 msgid "Add a new youth"
 msgstr "Add a new youth"
 
-msgid "Add special requirements"
-msgstr "Add special requirements"
+msgid "Add specific requirements"
+msgstr "Add specific requirements"
 
-msgid "Special requirements"
-msgstr "Special requirements"
+msgid "Specific requirements"
+msgstr "Specific requirements"
 
-msgid "Please tell us about any special requirements that we might need to know of here (eg. need wheelchair access)"
-msgstr "Please tell us about any special requirements that we might need to know of here (eg. need wheelchair access)"
+msgid "Please tell us about any specific requirements that we should be aware of (eg. wheelchair access)"
+msgstr "Please tell us about any specific requirements that we should be aware of (eg. wheelchair access)"
 
 msgid "Not attending"
 msgstr "Not attending"
@@ -4095,8 +4098,8 @@ msgstr "Identify as..."
 msgid "Specify Identity"
 msgstr "Specify Identity"
 
-msgid "To check how well we are succeeding, we'd like to find out whether or not people of different genders are equally likely to take part."
-msgstr "To check how well we are succeeding, we'd like to find out whether or not people of different genders are equally likely to take part."
+msgid "To check how well we are succeeding, we'd like to find out whether people of different genders are equally likely to attend."
+msgstr "To check how well we are succeeding, we'd like to find out whether people of different genders are equally likely to attend."
 
 msgid "We want to provide activities that appeal to people regardless of their gender."
 msgstr "We want to provide activities that appeal to people regardless of their gender."
@@ -4151,11 +4154,11 @@ msgstr "We're sorry, there are no tickets left."
 msgid "Forgot password?"
 msgstr "Forgot password?"
 
-msgid "You can ask your parent or guardian to book for you."
-msgstr "You can ask your parent or guardian to book for you."
+msgid "Please ask your parent or guardian to book for you."
+msgstr "Please ask your parent or guardian to book for you."
 
-msgid "Sorry :( Children under 13 are not allowed to book events."
-msgstr "Sorry :( Children under 13 are not allowed to book events."
+msgid "Sorry :( Since you are under 13, you're not yet allowed to book event tickets yourself."
+msgstr "Sorry :( Since you are under 13, you're not yet allowed to book event tickets yourself."
 
 msgid "Log into your account"
 msgstr "Log into your account"
@@ -4172,26 +4175,26 @@ msgstr "A user already exists for this email."
 msgid "Last name is required"
 msgstr "Last name is required"
 
-msgid "Parent email address is required"
-msgstr "Parent email address is required"
+msgid "Email address is required"
+msgstr "Email address is required"
 
-msgid "Parent email address is invalid"
-msgstr "Parent email address is invalid"
+msgid "Email address is invalid"
+msgstr "Email address is invalid"
 
 msgid "Email address"
 msgstr "Email address"
 
-msgid "Your email"
-msgstr "Your email"
+msgid "Your email address"
+msgstr "Your email address"
 
-msgid "We collect these details to allow Dojos to contact attendees' parents."
-msgstr "We collect these details to allow Dojos to contact attendees' parents."
+msgid "We collect this information so we can contact you with updates about the events you're booking tickets for."
+msgstr "We collect this information so we can contact you with updates about the events you're booking tickets for."
 
-msgid "If you are a parent or a guardian booking tickets for a child, or a child over 13 please still tell us your details here."
-msgstr "If you are a parent or a guardian booking tickets for a child, or a child over 13 please still tell us your details here."
+msgid "If you are a parent/guardian and want to book tickets for a child under 13, please fill in your own details."
+msgstr "If you are a parent/guardian and want to book tickets for a child under 13, please fill in your own details."
 
-msgid "Register your details so you can book Dojo Events"
-msgstr "Register your details so you can book Dojo Events"
+msgid "Please register your details so you can book Dojo events tickets"
+msgstr "Please register your details so you can book Dojo events tickets"
 
 msgid "Read full event details"
 msgstr "Read full event details"
@@ -4235,8 +4238,8 @@ msgstr "Dojo supported by"
 msgid "Please select a ticket or \"Not attending\""
 msgstr "Please select a ticket or \"Not attending\""
 
-msgid "Youth tickets are for attendees 17 years or younger. No ticket is required for guardians or parents."
-msgstr "Youth tickets are for attendees 17 years or younger. No ticket is required for guardians or parents."
+msgid "Youth tickets are for attendees up to 17 years. Parents/guardians do not need a ticket."
+msgstr "Youth tickets are for attendees up to 17 years. Parents/guardians do not need a ticket."
 
 msgid "Youth ticket"
 msgstr "Youth ticket"
