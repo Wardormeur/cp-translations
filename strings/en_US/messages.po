@@ -3672,24 +3672,6 @@ msgstr "Tell us your skills"
 msgid "To become a Champion you do not need to have technical skills as you can find other volunteers with these skills or use our awesome learning content."
 msgstr "To become a Champion you do not need to have technical skills as you can find other volunteers with these skills or use our awesome learning content."
 
-msgid "Tell us how confident you feel in the following areas;"
-msgstr "Tell us how confident you feel in the following areas;"
-
-msgid "How confident are you in mentoring young people?"
-msgstr "How confident are you in mentoring young people?"
-
-msgid "How confident are you in your coding and technology skills?"
-msgstr "How confident are you in your coding and technology skills?"
-
-msgid "Not very"
-msgstr "Not very"
-
-msgid "Slightly"
-msgstr "Slightly"
-
-msgid "Very"
-msgstr "Very"
-
 msgid "Media (newspaper/radio)"
 msgstr "Media (newspaper/radio)"
 
