@@ -414,6 +414,12 @@ msgstr "Social"
 msgid "Twitter"
 msgstr "Twitter"
 
+msgid "Dojo's Twitter"
+msgstr "Dojo's Twitter"
+
+msgid "Dojo's Facebook"
+msgstr "Dojo's Facebook"
+
 msgid "If you wish please provide your username or a link to your Twitter page."
 msgstr "If you wish please provide your username or a link to your Twitter page."
 
@@ -473,6 +479,9 @@ msgstr "Prerequisites"
 
 msgid "Notes"
 msgstr "Notes"
+
+msgid "Dojo description"
+msgstr "Dojo description"
 
 msgid "Search Engine"
 msgstr "Search Engine"
@@ -686,6 +695,9 @@ msgstr "Send Request"
 
 msgid "Contact"
 msgstr "Contact"
+
+msgid "Contact details to help us verify your Dojo"
+msgstr "Contact details to help us verify your Dojo"
 
 msgid "Email"
 msgstr "Email"
@@ -3080,9 +3092,6 @@ msgstr "Changes to our Privacy Statement"
 msgid "Any changes to this Privacy Statement will be posted on the Website so you are always aware of what information we collect, how we use it, and under what circumstances, if any, we disclose it. If at any time we decide to use personal data in a manner significantly different from that stated in this Privacy Statement, or otherwise disclosed to you at the time it was collected, we will notify you by email, and you will have a choice as to whether or not we use your information in the new manner."
 msgstr "Any changes to this Privacy Statement will be posted on the Website so you are always aware of what information we collect, how we use it, and under what circumstances, if any, we disclose it. If at any time we decide to use personal data in a manner significantly different from that stated in this Privacy Statement, or otherwise disclosed to you at the time it was collected, we will notify you by email, and you will have a choice as to whether or not we use your information in the new manner."
 
-msgid "Contact"
-msgstr "Contact"
-
 msgid "We welcome any queries, comments or requests you may have regarding this Privacy Statement.  Please contact us in writing at Dogpatch Labs, The CHQ Building, Custom House Quay, Dublin 1, IRELAND or by e-mail at info@coderdojo.com."
 msgstr "We welcome any queries, comments or requests you may have regarding this Privacy Statement.  Please contact us in writing at Dogpatch Labs, The CHQ Building, Custom House Quay, Dublin 1, IRELAND or by e-mail at info@coderdojo.com."
 
@@ -4216,9 +4225,6 @@ msgstr "Sessions"
 
 msgid "Upcoming events"
 msgstr "Upcoming events"
-
-msgid "Contact Dojo"
-msgstr "Contact Dojo"
 
 msgid "Help"
 msgstr "Help"
