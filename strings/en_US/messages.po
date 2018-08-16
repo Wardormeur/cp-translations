@@ -3642,15 +3642,6 @@ msgstr "Fourth"
 msgid "Please answer the following questions correctly so that our community team can verify all new Champions are real people."
 msgstr "Please answer the following questions correctly so that our community team can verify all new Champions are real people."
 
-msgid "Congratulations on registering as a CoderDojo Champion!"
-msgstr "Congratulations on registering as a CoderDojo Champion!"
-
-msgid "A Champion is an individual who volunteers to take charge of setting up, running and maintaining a Dojo."
-msgstr "A Champion is an individual who volunteers to take charge of setting up, running and maintaining a Dojo."
-
-msgid "As a Champion you care about your community enough to take the initiative to start a Dojo and give youth the opportunity to learn to code and be creative with technology!"
-msgstr "As a Champion you care about your community enough to take the initiative to start a Dojo and give youth the opportunity to learn to code and be creative with technology!"
-
 msgid "First name"
 msgstr "First name"
 
