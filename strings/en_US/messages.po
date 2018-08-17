@@ -4247,6 +4247,9 @@ msgstr "There are no {userType} tickets available for this event. Please contact
 msgid "We're sorry, one or more of your tickets is over capacity"
 msgstr "We're sorry, one or more of your tickets is over capacity"
 
+msgid "Personal email"
+msgstr "Personal email"
+
 msgid "We already had a session"
 msgstr "We already had a session"
 
