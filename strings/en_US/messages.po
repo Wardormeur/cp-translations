@@ -4246,3 +4246,15 @@ msgstr "There are no {userType} tickets available for this event. Please contact
 
 msgid "We're sorry, one or more of your tickets is over capacity"
 msgstr "We're sorry, one or more of your tickets is over capacity"
+
+msgid "We already had a session"
+msgstr "We already had a session"
+
+msgid "In the next three months"
+msgstr "In the next three months"
+
+msgid "In the next year"
+msgstr "In the next year"
+
+msgid "Indicate your first session"
+msgstr "Indicate your first session"
