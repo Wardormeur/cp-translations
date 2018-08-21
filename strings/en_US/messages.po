@@ -3822,8 +3822,8 @@ msgstr "You can learn more about Mentors and Volunteers at Dojos in this short <
 msgid "Dojos must ensure all volunteers are vetted and approved in compliance with local child safeguarding legislation."
 msgstr "Dojos must ensure all volunteers are vetted and approved in compliance with local child safeguarding legislation."
 
-msgid "You can learn more about global safeguarding requirements<a target=\"_blank\" href=\"https://help.coderdojo.com/hc/en-us/articles/360001245943-E-Learning-for-volunteers-child-safeguarding"> here </a> or by completing our <a target=\"_blank\" href=\"/dashboard/profile/lms\">global safeguarding e-learning course</a>"
-msgstr "You can learn more about global safeguarding requirements<a target=\"_blank\" href=\"https://help.coderdojo.com/hc/en-us/articles/360001245943-E-Learning-for-volunteers-child-safeguarding"> here </a> or by completing our <a target=\"_blank\" href=\"/dashboard/profile/lms\">global safeguarding e-learning course</a>"
+msgid "You can learn more about global safeguarding requirements<a target=\"_blank\" href=\"https://help.coderdojo.com/hc/en-us/articles/360001245943-E-Learning-for-volunteers-child-safeguarding\"> here </a> or by completing our <a target=\"_blank\" href=\"/dashboard/profile/lms\">global safeguarding e-learning course</a>"
+msgstr "You can learn more about global safeguarding requirements<a target=\"_blank\" href=\"https://help.coderdojo.com/hc/en-us/articles/360001245943-E-Learning-for-volunteers-child-safeguarding\"> here </a> or by completing our <a target=\"_blank\" href=\"/dashboard/profile/lms\">global safeguarding e-learning course</a>"
 
 msgid "I have volunteers to help run my Dojo."
 msgstr "I have volunteers to help run my Dojo."
