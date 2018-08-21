@@ -1320,6 +1320,9 @@ msgstr "Error leaving Dojo"
 msgid "Are you sure you want to leave this Dojo?"
 msgstr "Are you sure you want to leave this Dojo?"
 
+msgid "You and your kids will stop being members of this Dojo and will not be notified of further events."
+msgstr "You and your kids will stop being members of this Dojo and will not be notified of further events."
+
 msgid "Leave Dojo"
 msgstr "Leave Dojo"
 
