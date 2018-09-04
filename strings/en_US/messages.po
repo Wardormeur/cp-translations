@@ -4244,6 +4244,9 @@ msgstr "In the next year"
 msgid "Indicate your first session"
 msgstr "Indicate your first session"
 
+msgid "News Updates"
+msgstr "News Updates"
+
 msgid "See all {badgesAmount} badges"
 msgstr "See all {badgesAmount} badges"
 
