@@ -3218,6 +3218,12 @@ msgstr "An invitation has been sent by email"
 msgid "My Children"
 msgstr "My Children"
 
+msgid "My children"
+msgstr "My children"
+
+msgid "View my children"
+msgstr "View my children"
+
 msgid "Recent Badges"
 msgstr "Recent Badges"
 
@@ -4244,8 +4250,17 @@ msgstr "In the next year"
 msgid "Indicate your first session"
 msgstr "Indicate your first session"
 
-msgid "News Updates"
-msgstr "News Updates"
+msgid "View more news"
+msgstr "View more news"
+
+msgid "Before your next event, here are some projects you can try"
+msgstr "Before your next event, here are some projects you can try"
+
+msgid "Here are some projects you can try"
+msgstr "Here are some projects you can try"
+
+msgid "View more projects"
+msgstr "View more projects"
 
 msgid "See all {badgesAmount} badges"
 msgstr "See all {badgesAmount} badges"
@@ -4258,6 +4273,9 @@ msgstr "Create your first event so attendees can book and you can easily see who
 
 msgid "It's simple and only takes 2 minutes!"
 msgstr "It's simple and only takes 2 minutes!"
+
+msgid "We see you don't use Zen events."
+msgstr "We see you don't use Zen events."
 
 msgid "If you're using Eventbrite for your Dojo you can make it easier for attendees and volunteers to find you by using <a href='https://coderdojo.com/2017/07/19/launching-eventbrite-integration-on-the-coderdojo-community-platform/'>our one-click Eventbrite plugin</a> (it's really easy!)"
 msgstr "If you're using Eventbrite for your Dojo you can make it easier for attendees and volunteers to find you by using <a href='https://coderdojo.com/2017/07/19/launching-eventbrite-integration-on-the-coderdojo-community-platform/'>our one-click Eventbrite plugin</a> (it's really easy!)"
@@ -4274,11 +4292,20 @@ msgstr "{name} doesn't have any badges yet."
 msgid "Talk to the organisers of your Dojo to learn how {name} can be rewarded through badges."
 msgstr "Talk to the organisers of your Dojo to learn how {name} can be rewarded through badges."
 
-msgid "{numKids} kids attended your events"
-msgstr "{numKids} kids attended your events"
+msgid "{numKids} ninjas attended your events"
+msgstr "{numKids} ninjas attended your events"
 
 msgid "Dojo stats"
 msgstr "Dojo stats"
+
+msgid "More information about girls in Dojos"
+msgstr "More information about girls in Dojos"
+
+msgid "No statistics are available at the moment."
+msgstr "No statistics are available at the moment."
+
+msgid "The more Zen is used, the more you'll find about your Dojo!"
+msgstr "The more Zen is used, the more you'll find about your Dojo!"
 
 msgid "\"{name}\" is available to book"
 msgstr "\"{name}\" is available to book"
