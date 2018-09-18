@@ -4250,6 +4250,24 @@ msgstr "News Updates"
 msgid "See all {badgesAmount} badges"
 msgstr "See all {badgesAmount} badges"
 
+msgid "Hey {name}, here's what's most important..."
+msgstr "Hey {name}, here's what's most important..."
+
+msgid "Create your first event so attendees can book and you can easily see who's attending."
+msgstr "Create your first event so attendees can book and you can easily see who's attending."
+
+msgid "It's simple and only takes 2 minutes!"
+msgstr "It's simple and only takes 2 minutes!"
+
+msgid "If you're using Eventbrite for your Dojo you can make it easier for attendees and volunteers to find you by using <a href='https://coderdojo.com/2017/07/19/launching-eventbrite-integration-on-the-coderdojo-community-platform/'>our one-click Eventbrite plugin</a> (it's really easy!)"
+msgstr "If you're using Eventbrite for your Dojo you can make it easier for attendees and volunteers to find you by using <a href='https://coderdojo.com/2017/07/19/launching-eventbrite-integration-on-the-coderdojo-community-platform/'>our one-click Eventbrite plugin</a> (it's really easy!)"
+
+msgid "Create your next event so attendees can book in!"
+msgstr "Create your next event so attendees can book in!"
+
+msgid "Your events"
+msgstr "Your events"
+
 msgid "{name} doesn't have any badges yet."
 msgstr "{name} doesn't have any badges yet."
 
@@ -4261,3 +4279,18 @@ msgstr "{numKids} kids attended your events"
 
 msgid "Dojo stats"
 msgstr "Dojo stats"
+
+msgid "\"{name}\" is available to book"
+msgstr "\"{name}\" is available to book"
+
+msgid "\"{name}\" is fully booked"
+msgstr "\"{name}\" is fully booked"
+
+msgid "\"{name}\" is booked"
+msgstr "\"{name}\" is booked"
+
+msgid "{num} \"{type}\" tickets booked"
+msgstr "{num} \"{type}\" tickets booked"
+
+msgid "{booked}/{total} {type} booked"
+msgstr "{booked}/{total} {type} booked"
