@@ -4321,3 +4321,6 @@ msgstr "{num} \"{type}\" tickets booked"
 
 msgid "{booked}/{total} {type} booked"
 msgstr "{booked}/{total} {type} booked"
+
+msgid "Your \"{name}\" tickets are waiting for approval"
+msgstr "Your \"{name}\" tickets are waiting for approval"
