@@ -4304,8 +4304,8 @@ msgstr "More information about girls in Dojos"
 msgid "No statistics are available at the moment."
 msgstr "No statistics are available at the moment."
 
-msgid "The more Zen is used, the more you'll find about your Dojo!"
-msgstr "The more Zen is used, the more you'll find about your Dojo!"
+msgid "The more Zen is used, the more you'll find out about your Dojo!"
+msgstr "The more Zen is used, the more you'll find out about your Dojo!"
 
 msgid "\"{name}\" is available to book"
 msgstr "\"{name}\" is available to book"
