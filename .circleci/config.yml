@@ -1,7 +1,7 @@
 ---
 version: 2
 jobs:
-  test:
+  fetch:
     working_directory: ~/cp-translations
     docker:
       - image: circleci/node:8
@@ -18,15 +18,36 @@ jobs:
           name: Install deps
           command: yarn
       - run:
-          name: Download and test translations
+          name: Download translations
           command: |
             for lang in it pt-PT de nl ro mt sl sk fr uk es-ES es-AR el pl et bg tr ja hi lt zh-CN id si-LK ur-PK zh-TW fil; do crowdin-cli download -l $lang; done
-            yarn test
       - save_cache:
           key: translations-{{ .Branch }}-{{ .Revision }}
           paths:
             - email-templates
             - strings
+  test:
+    working_directory: ~/cp-translations
+    docker:
+      - image: circleci/node:8
+    steps:
+      - checkout
+      - restore_cache:
+          key: translations-{{ .Branch }}-{{ .Revision }}
+      - run:
+          name: Test translations
+          command: yarn test
+  lex:
+    working_directory: ~/cp-translations
+    docker:
+      - image: circleci/node:8
+    steps:
+      - checkout
+      - restore_cache:
+          key: translations-{{ .Branch }}-{{ .Revision }}
+      - run:
+          name: Test translations
+          command: yarn lex 
   publish:
     working_directory: ~/cp-translations
     docker:
@@ -63,10 +84,17 @@ workflows:
   version: 2
   test-and-deploy:
     jobs:
-      - test
+      - fetch
+      - test:
+          requires:
+            - fetch
+      - lex:
+          requires:
+            - fetch
       - publish:
           requires:
             - test
+            - lex 
           filters:
             branches:
               only:
