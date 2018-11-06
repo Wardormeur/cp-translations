@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha test/validStrings",
-    "lex": "mocha --delay test/lexer.js"
+    "lex-gen": "node test/lexer/en-whitelist-generator.js",
+    "lex": "yarn lex-gen && mocha --delay test/lexer/index.js"
   },
   "repository": {
     "type": "git",
