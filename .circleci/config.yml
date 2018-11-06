@@ -22,7 +22,7 @@ jobs:
           command: |
             for lang in it pt-PT de nl ro mt sl sk fr uk es-ES es-AR el pl et bg tr ja hi lt zh-CN id si-LK ur-PK zh-TW fil; do crowdin-cli download -l $lang; done
       - save_cache:
-          key: translations-{{ .Branch }}-{{ .Revision }}
+          key: translations-{{ .Branch }}-{{ .Revision }}-{{ .Environment.CIRCLE_WORKFLOW_ID }}
           paths:
             - email-templates
             - strings
@@ -33,7 +33,7 @@ jobs:
     steps:
       - checkout
       - restore_cache:
-          key: translations-{{ .Branch }}-{{ .Revision }}
+          key: translations-{{ .Branch }}-{{ .Revision }}-{{ .Environment.CIRCLE_WORKFLOW_ID }}
       - run:
           name: Install deps
           command: yarn
@@ -47,7 +47,7 @@ jobs:
     steps:
       - checkout
       - restore_cache:
-          key: translations-{{ .Branch }}-{{ .Revision }}
+          key: translations-{{ .Branch }}-{{ .Revision }}-{{ .Environment.CIRCLE_WORKFLOW_ID }}
       - run:
           name: Install deps
           command: yarn
@@ -64,7 +64,7 @@ jobs:
             - "7c:58:32:cd:93:00:d6:85:ff:34:84:1b:a1:e7:ee:39"
       - checkout
       - restore_cache:
-          key: translations-{{ .Branch }}-{{ .Revision }}
+          key: translations-{{ .Branch }}-{{ .Revision }}-{{ .Environment.CIRCLE_WORKFLOW_ID }}
       - run:
           name: Setup .npmrc
           command: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
