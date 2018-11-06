@@ -1,4 +1,2 @@
 {
-  "email-templates/session-cancelled-en_US/html.ejs": [ { "type": "evaluate", "value": "eventDate" } ],
-  "email-templates/session-cancelled-en_US/text.ejs": [ { "type": "evaluate", "value": "eventDate" } ]
 }

@@ -9,8 +9,10 @@ const laxedTokens = require('./tokens-laxed.json');
 (async () => {
   // Create a unique referential for all tokens, strict and laxed
   const referenceTokens = mergeTokens(strictTokens, laxedTokens);
-  for (const [filename, expectedTokens] of Object.entries(referenceTokens)) {
-    const regFilename = filename.replace('en_US', '*');
+  const entries = Object.entries(referenceTokens);
+  for (const [filename, expectedTokens] of entries) {
+    let regFilename = filename.replace('en_US', '+([a-z])_+([A-Z])');
+    regFilename = regFilename.replace('///g', '\/');
     const translatedFiles = await glob(regFilename);
     describe(`should have the same content/interpolation for ${filename}`, () => {
       for (const translatedFile of translatedFiles) {
