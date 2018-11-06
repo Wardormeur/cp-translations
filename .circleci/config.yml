@@ -35,6 +35,9 @@ jobs:
       - restore_cache:
           key: translations-{{ .Branch }}-{{ .Revision }}
       - run:
+          name: Install deps
+          command: yarn
+      - run:
           name: Test translations
           command: yarn test
   lex:
@@ -45,6 +48,9 @@ jobs:
       - checkout
       - restore_cache:
           key: translations-{{ .Branch }}-{{ .Revision }}
+      - run:
+          name: Install deps
+          command: yarn
       - run:
           name: Test translations
           command: yarn lex 
