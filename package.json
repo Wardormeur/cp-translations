@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/CoderDojo/cp-translations#readme",
   "devDependencies": {
-    "@buxlabs/ejs-lexer": "^1.0.0",
+    "@buxlabs/ejs-lexer": "https://github.com/Wardormeur/ejs-lexer",
     "chai": "^4.2.0",
     "ejs": "^2.5.7",
     "email-templates": "^2.0.1",
