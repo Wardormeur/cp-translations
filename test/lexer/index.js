@@ -3,16 +3,15 @@ const glob = util.promisify(require('glob'));
 const { getTokens } = require('./utils');
 const { expect } = require('chai');
 const strictTokens = require('./tokens-en-snapshot.json');
-const laxedTokens = require('./tokens-laxed.json');
+const laxTokens = require('./tokens-lax.json');
 
 
 (async () => {
-  // Create a unique referential for all tokens, strict and laxed
-  const referenceTokens = mergeTokens(strictTokens, laxedTokens);
+  // Create a unique referential for all tokens, strict and lax
+  const referenceTokens = mergeTokens(strictTokens, laxTokens);
   const entries = Object.entries(referenceTokens);
   for (const [filename, expectedTokens] of entries) {
-    let regFilename = filename.replace('en_US', '+([a-z])_+([A-Z])');
-    regFilename = regFilename.replace('///g', '\/');
+    const regFilename = filename.replace('en_US', '+([a-z])_+([A-Z])');
     const translatedFiles = await glob(regFilename);
     describe(`should have the same content/interpolation for ${filename}`, () => {
       for (const translatedFile of translatedFiles) {
@@ -28,10 +27,10 @@ const laxedTokens = require('./tokens-laxed.json');
   }
   run();
 
-  function mergeTokens(strictTokens, laxedTokens) {
+  function mergeTokens(strictTokens, laxTokens) {
     const tokens = { ...strictTokens };
-    Object.entries(laxedTokens).forEach(([key, laxedEntries]) => {
-      tokens[key] = tokens[key].concat(laxedEntries);
+    Object.entries(laxTokens).forEach(([key, laxEntries]) => {
+      tokens[key] = tokens[key].concat(laxEntries);
     });
     return tokens; 
   } 
