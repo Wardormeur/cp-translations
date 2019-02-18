@@ -486,8 +486,8 @@ msgstr "Dojo description"
 msgid "Search Engine"
 msgstr "Search Engine"
 
-msgid "Other CoderDojo Volunteers"
-msgstr "Other CoderDojo Volunteers"
+msgid "CoderDojo Volunteers"
+msgstr "CoderDojo Volunteers"
 
 msgid "Other Coding Organisations"
 msgstr "Other Coding Organisations"
@@ -512,6 +512,39 @@ msgstr "Media (newspaper/radio)"
 
 msgid "Other"
 msgstr "Other"
+
+msgid "Raspberry Pi Foundation / CoderDojo Foundation outreach"
+msgstr "Raspberry Pi Foundation / CoderDojo Foundation outreach"
+
+msgid "Social media"
+msgstr "Social media"
+
+msgid "My employer (CSR scheme at work)"
+msgstr "My employer (CSR scheme at work)"
+
+msgid "Event / Conference / Training"
+msgstr "Event / Conference / Training"
+
+msgid "Future Learn"
+msgstr "Future Learn"
+
+msgid "Library or youth group"
+msgstr "Library or youth group"
+
+msgid "Other (comment field)"
+msgstr "Other (comment field)"
+
+msgid "Other Coding Organisations (no longer used)"
+msgstr "Other Coding Organisations (no longer used)"
+
+msgid "Development Community (no longer used)"
+msgstr "Development Community (no longer used)"
+
+msgid "Family/Friends (no longer used)"
+msgstr "Family/Friends (no longer used)"
+
+msgid "Media (newspaper/radio) (no longer used)"
+msgstr "Media (newspaper/radio) (no longer used)"
 
 msgid "CoderDojo Foundation charter for CoderDojo"
 msgstr "CoderDojo Foundation charter for CoderDojo"
