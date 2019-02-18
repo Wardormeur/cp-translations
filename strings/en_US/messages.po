@@ -489,11 +489,11 @@ msgstr "Search Engine"
 msgid "CoderDojo Volunteers"
 msgstr "CoderDojo Volunteers"
 
-msgid "Other Coding Organisations"
-msgstr "Other Coding Organisations"
+msgid "Other Coding Organisations (no longer used)"
+msgstr "Other Coding Organisations (no longer used)"
 
-msgid "Development Community"
-msgstr "Development Community"
+msgid "Development Community (no longer used)"
+msgstr "Development Community (no longer used)"
 
 msgid "Events"
 msgstr "Events"
@@ -503,12 +503,6 @@ msgstr "There are no events currently listed for this Dojo. Please contact the D
 
 msgid "Word of Mouth"
 msgstr "Word of Mouth"
-
-msgid "Family/Friends"
-msgstr "Family/Friends"
-
-msgid "Media (newspaper/radio)"
-msgstr "Media (newspaper/radio)"
 
 msgid "Other"
 msgstr "Other"
@@ -533,12 +527,6 @@ msgstr "Library or youth group"
 
 msgid "Other (comment field)"
 msgstr "Other (comment field)"
-
-msgid "Other Coding Organisations (no longer used)"
-msgstr "Other Coding Organisations (no longer used)"
-
-msgid "Development Community (no longer used)"
-msgstr "Development Community (no longer used)"
 
 msgid "Family/Friends (no longer used)"
 msgstr "Family/Friends (no longer used)"
