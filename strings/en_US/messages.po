@@ -4289,6 +4289,9 @@ msgstr "See all {badgesAmount} badges"
 msgid "Hey {name}, here's what's most important..."
 msgstr "Hey {name}, here's what's most important..."
 
+msgid "Hey {name}, once you join or start a Dojo this page will have useful information about your Dojos"
+msgstr "Hey {name}, once you join or start a Dojo this page will have useful information about your Dojos"
+
 msgid "Create your first event so attendees can book and you can easily see who's attending."
 msgstr "Create your first event so attendees can book and you can easily see who's attending."
 
