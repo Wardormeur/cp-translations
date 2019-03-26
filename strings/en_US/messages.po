@@ -4292,8 +4292,8 @@ msgstr "Hey {name}, here's what's most important..."
 msgid "Hey {name}, once you join or start a Dojo this page will have useful information about your Dojos"
 msgstr "Hey {name}, once you join or start a Dojo this page will have useful information about your Dojos"
 
-msgid "You have a pending join request for <a href=\'/dojos/{slug}\'>{name}</a>."
-msgstr "You have a pending join request for <a href=\'/dojos/{slug}\'>{name}</a>."
+msgid "You have a pending join request for <a href='/dojos/{slug}'>{name}</a>."
+msgstr "You have a pending join request for <a href='/dojos/{slug}'>{name}</a>."
 
 msgid "If the Dojo does not reply/accept within a few days, we suggest you try another club or contacting support."
 msgstr "If the Dojo does not reply/accept within a few days, we suggest you try another club or contacting support."
