@@ -4292,6 +4292,24 @@ msgstr "Hey {name}, here's what's most important..."
 msgid "Hey {name}, once you join or start a Dojo this page will have useful information about your Dojos"
 msgstr "Hey {name}, once you join or start a Dojo this page will have useful information about your Dojos"
 
+msgid "You have a pending join request for <a href=\'/dojos/{slug}\'>{name}</a>."
+msgstr "You have a pending join request for <a href=\'/dojos/{slug}\'>{name}</a>."
+
+msgid "If the Dojo does not reply/accept within a few days, we suggest you try another club or contacting support."
+msgstr "If the Dojo does not reply/accept within a few days, we suggest you try another club or contacting support."
+
+msgid "In the meantime, we recommend that you complete some of the following."
+msgstr "In the meantime, we recommend that you complete some of the following."
+
+msgid "Do our safeguarding module"
+msgstr "Do our safeguarding module"
+
+msgid "Look at our guide to mentoring"
+msgstr "Look at our guide to mentoring"
+
+msgid "Check out some projects you might like"
+msgstr "Check out some projects you might like"
+
 msgid "Create your first event so attendees can book and you can easily see who's attending."
 msgstr "Create your first event so attendees can book and you can easily see who's attending."
 
