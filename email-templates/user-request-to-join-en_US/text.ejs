@@ -1,12 +1,21 @@
-Hi there,
 
-The following user wants to join the <%=dojoName%> Dojo as a <%=userType%>.
+<% if (userType === 'mentor' ) { %>
+<%=name%> wants to mentor at your Dojo!
 
-Name: <%=name%>
-Email: <%=email%>
 
-To approve this request, please click the following link:
-<%=link%>
+<%=name%> wishes to join your Dojo, <b><%=dojoName%></b>, as a <b>mentor</b>.
+<% } else { %>
+<%=name%> wants to champion at your Dojo!
+
+
+<%=name%> wishes to join your Dojo, <b><%=dojoName%></b>, as a <b>champion</b>.
+<% } %>
+
+To approve this request, please visit the following link:
+<%=acceptLink%>
+If you don't know this person and would like to assess them, we recommend that you contact them by email (<%=email%>).
+To reject this request, please visit the following link:
+<%=refuseLink%>
 
 Best wishes,
 The CoderDojo Foundation Team

@@ -1,16 +1,23 @@
-<% include ../common-en_US/header.ejs %>
-  <!-- MAIN CONTENT GOES HERE -->
-  <h1>Hi there,</h1>
-
-  <p>The following user wants to join the <b><%=dojoName%></b> Dojo as a <b><%=userType%></b>.</p>
-
-  <p><b>Name:</b> <%=name%></p>
-  <p><b>Email:</b> <%=email%></p>
-
-  <p>To approve this request, please click the following link:
-  <a href="<%=link%>"><%=link%></a></p>
-  
-  <p>Best wishes,</br>
-  The CoderDojo Foundation Team</p>
-  
-<% include ../common-en_US/footer.ejs %>
+<% include ../common-en_US/headerv2.ejs %>
+<div style="background: #73449B;color: #fff;text-align: center;padding-top: 33px;min-height:133px;">
+  <% if (userType === 'mentor' ) { %>
+  <h1><%=name%> wants to mentor at your Dojo!</h1>
+  <% } else { %>
+  <h1><%=name%> wants to champion at your Dojo!</h1>
+  <% } %>
+</div>
+<div style="margin: 33px">
+  <% if (userType === 'mentor' ) { %>
+  <p><%=name%> wishes to join your Dojo, <b><%=dojoName%></b>, as a <b>mentor</b>.</p>
+  <% } else { %>
+  <p><%=name%> wishes to join your Dojo, <b><%=dojoName%></b>, as a <b>champion</b>.</p>
+  <% } %>
+  <div style="text-align:center; padding: 12px 0px;">
+    <a type="button" href="<%=acceptLink%>" style="background-color: #49B749; color: white; padding: 10px; border-radius: 5px; text-decoration: none;">Accept the request</a>
+  </div>
+  <p>If you don't know this person and would like to assess them, we recommend that you contact them by email (<a href="mailto:<%=email%>"><%=email%></a>).</p>
+  <div style="text-align:center; padding: 12px 0px;">
+    <a type="button" href="<%=refuseLink%>" style="background-color: #FAA31A; color: white; padding: 10px; border-radius: 5px; text-decoration: none;">Refuse the request</a>
+  </div>
+</div>
+<% include ../common-en_US/footerv2.ejs %>
