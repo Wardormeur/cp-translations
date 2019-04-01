@@ -4366,3 +4366,21 @@ msgstr "{booked}/{total} {type} booked"
 
 msgid "Your \"{name}\" tickets are waiting for approval"
 msgstr "Your \"{name}\" tickets are waiting for approval"
+
+msgid "Accepting the user..."
+msgstr "Accepting the user..."
+
+msgid "The user is now a mentor for your Dojo. This means they can now book mentor tickets and check in users to your events."
+msgstr "The user is now a mentor for your Dojo. This means they can now book mentor tickets and check in users to your events."
+
+msgid "The user is now a champion for your Dojo. This means they can now create events, modify the Dojo page and award badges."
+msgstr "The user is now a champion for your Dojo. This means they can now create events, modify the Dojo page and award badges."
+
+msgid "The request to join your Dojo has been refused."
+msgstr "The request to join your Dojo has been refused."
+
+msgid "Refusing this user from joining your Dojo..."
+msgstr "Refusing this user from joining your Dojo..."
+
+msgid "Invalid action, try again or contact support."
+msgstr "Invalid action, try again or contact support."
