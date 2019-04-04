@@ -4384,3 +4384,6 @@ msgstr "Refusing this user from joining your Dojo..."
 
 msgid "Invalid action, try again or contact support."
 msgstr "Invalid action, try again or contact support."
+
+msgid "This user is already part of your Dojo, please go to your {openLink}Dojo\'s user management page{closeLink} to change the user\'s role."
+msgstr "This user is already part of your Dojo, please go to your {openLink}Dojo\'s user management page{closeLink} to change the user\'s role."
