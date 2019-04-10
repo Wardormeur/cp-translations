@@ -4366,3 +4366,9 @@ msgstr "{booked}/{total} {type} booked"
 
 msgid "Your \"{name}\" tickets are waiting for approval"
 msgstr "Your \"{name}\" tickets are waiting for approval"
+
+msgid "Add to your calendar"
+msgstr "Add to your calendar"
+
+msgid "iCalendar feed copied!"
+msgstr "iCalendar feed copied!"
