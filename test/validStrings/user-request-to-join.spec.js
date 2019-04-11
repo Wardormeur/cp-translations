@@ -10,7 +10,8 @@ describe('user-request-to-join', () => {
         userType: 'Mentor',
         name: 'Some Name',
         email: 'someuser@example.com',
-        link: 'http://example.com',
+        acceptLink: 'http://example.com',
+        refuseLink: 'http://example.com',
         year: 2017,
       });
     });
