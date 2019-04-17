@@ -4393,3 +4393,9 @@ msgstr "Add to your calendar"
 
 msgid "iCalendar feed copied!"
 msgstr "iCalendar feed copied!"
+
+msgid "This Dojo is now inactive."
+msgstr "This Dojo is now inactive"
+
+msgid "Click {openLink}here{closeLink} to look for an active Dojo."
+msgstr "Click {openLink}here{closeLink} to look for an active Dojo."
