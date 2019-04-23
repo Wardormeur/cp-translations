@@ -21,6 +21,7 @@ jobs:
           name: Download translations
           command: |
             for lang in it pt-PT de nl ro mt sl sk fr uk es-ES es-AR el pl et bg tr ja hi lt zh-CN id si-LK ur-PK zh-TW fil; do crowdin-cli download -l $lang; done
+          no_output_timeout: 20m
       - save_cache:
           key: translations-{{ .Branch }}-{{ .Revision }}-{{ .Environment.CIRCLE_WORKFLOW_ID }}
           paths:
