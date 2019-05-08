@@ -4313,8 +4313,8 @@ msgstr "Check out some projects you might like"
 msgid "Create your first event so attendees can book and you can easily see who's attending."
 msgstr "Create your first event so attendees can book and you can easily see who's attending."
 
-msgid "{dojoName}'s Dojo anniversary is approaching - apply now for your FREE birthday pack to celebrate"
-msgstr "{dojoName}'s Dojo anniversary is approaching - apply now for your FREE birthday pack to celebrate"
+msgid "{dojoName}, your Dojo anniversary is approaching! Apply now for your FREE birthday pack to celebrate"
+msgstr "{dojoName}, your Dojo anniversary is approaching! Apply now for your FREE birthday pack to celebrate"
 
 msgid "It's simple and only takes 2 minutes!"
 msgstr "It's simple and only takes 2 minutes!"
