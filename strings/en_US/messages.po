@@ -3798,11 +3798,11 @@ msgstr "Please provide detailed information below. This location should appear o
 msgid "What type of venue will you run a Dojo in?"
 msgstr "What type of venue will you run a Dojo in?"
 
-msgid "Will your dojo be private?"
-msgstr "Will your dojo be private?"
+msgid "This Dojo will be:"
+msgstr "This Dojo will be:"
 
-msgid "Private Dojos are ones which are only open to specific people within an organisation. e.g. Dojo hosted in a school and only open to pupils of the school."
-msgstr "Private Dojos are ones which are only open to specific people within an organisation. e.g. Dojo hosted in a school and only open to pupils of the school."
+msgid "CoderDojo aims to be open and accessible to everyone. This means the majority of our Dojos, programs and features are made to be public and open. We allow the private option for clubs that definitely need to be limited to only current members of the venue."
+msgstr "CoderDojo aims to be open and accessible to everyone. This means the majority of our Dojos, programs and features are made to be public and open. We allow the private option for clubs that definitely need to be limited to only current members of the venue."
 
 msgid "Other (please detail)"
 msgstr "Other (please detail)"
@@ -4216,6 +4216,9 @@ msgstr "Open in Google Maps"
 
 msgid "Public"
 msgstr "Public"
+
+msgid "Public and open"
+msgstr "Public and open"
 
 msgid "This is a recurring event"
 msgstr "This is a recurring event"
